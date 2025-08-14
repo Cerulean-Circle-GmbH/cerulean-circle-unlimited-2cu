@@ -22,7 +22,7 @@
 
  Project information
 
-see here [2cu IDEA independent Use Cases](https://2cu.atlassian.net/wiki/spaces/CCU/pages/1851916351/2cu+IDEA+independent+Use+Cases)
+see here [2cu IDEA independent Use Cases](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1851916351/2cu_IDEA_independent_Use_Cases.md)
 
 # Report
 

@@ -14,7 +14,7 @@ This is the code and repository for the ONCE server implementation, WODA compone
 
 Repository: `2cuBitbucket:donges/eamd.ucp.git`
 
-See also: [https://2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM+Kickoff-Planning#Release-Planning](https://2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM+Kickoff-Planning#Release-Planning)
+See also: [../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM_Kickoff-Planning.md#Release-Planning](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM_Kickoff-Planning.md#Release-Planning)
 
 | **Table of content** |
 | --- |
@@ -66,7 +66,7 @@ master # NEOM PoC production branch
 test/neom # Only Accepted Features
 dev/neom # Only Reviewed By Development - 4 eyes principle per feature
 ```
-    - See also [https://2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM+Kickoff-Planning#Release-Planning](https://2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM+Kickoff-Planning#Release-Planning)
+    - See also [../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM_Kickoff-Planning.md#Release-Planning](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM_Kickoff-Planning.md#Release-Planning)
       - [https://bitbucket.org/donges/eamd.ucp/branch/master](https://bitbucket.org/donges/eamd.ucp/branch/master)
       - [https://bitbucket.org/donges/eamd.ucp/branch/test/neom](https://bitbucket.org/donges/eamd.ucp/branch/test/neom)
       - [https://bitbucket.org/donges/eamd.ucp/branch/dev/neom](https://bitbucket.org/donges/eamd.ucp/branch/dev/neom)

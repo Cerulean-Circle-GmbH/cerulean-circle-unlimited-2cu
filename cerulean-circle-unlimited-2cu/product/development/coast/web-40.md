@@ -28,7 +28,7 @@ also see [ONCE](../../development/once.md), [ONCE Documentation](../../developme
 
 ![](./attachments/image-20200727-081832.png)
 
-also see [EAMD.ucp Repository](../coast/eamducp-repository.md), [EAMD Scripts](../../development/once/once-documentation/eamd-scripts.md), [OOSH](https://2cu.atlassian.net/wiki/spaces/CCU/pages/269156359/OOSH)
+also see [EAMD.ucp Repository](../coast/eamducp-repository.md), [EAMD Scripts](../../development/once/once-documentation/eamd-scripts.md), [OOSH](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/269156359/OOSH.md)
 
 ## WebBeans
 

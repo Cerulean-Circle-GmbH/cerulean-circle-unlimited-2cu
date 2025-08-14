@@ -38,7 +38,7 @@
     - [Subscription offerings for “unlimited deployments, one region”](#subscription-offerings-for-unlimited-deployments-one-region)
 
 1. Structure. This Agreement incorporates the following components:
-  1. these Subscription Terms and Conditions, [Subscription Terms and Conditions for CCG Subscription Offerings](https://2cu.atlassian.net/wiki/spaces/CCU/pages/1875279885/Subscription+Terms+and+Conditions+for+CCG+Subscription+Offerings)
+  1. these Subscription Terms and Conditions, [Subscription Terms and Conditions for CCG Subscription Offerings](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1875279885/Subscription_Terms_and_Conditions_for_CCG_Subscription_Offerings.md)
   2. the EULA [EN - EULA (tobe DUAL LICENSE AGREEMENT)](../ccg-vertrge/en-eula-tobe-dual-license-agreement.md)
 2. Subscription Offering Types. 
   1. CCG offers a **Support Subscription**. A description of the Subscription Offering is available at [ceruleancircle.com/support](http://ceruleancircle.com/support)

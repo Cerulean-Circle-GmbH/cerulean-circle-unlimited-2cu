@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/product/development/2cu-custom-development/hello-mirrors-development/core-information-model-corim-hellomirrors.md

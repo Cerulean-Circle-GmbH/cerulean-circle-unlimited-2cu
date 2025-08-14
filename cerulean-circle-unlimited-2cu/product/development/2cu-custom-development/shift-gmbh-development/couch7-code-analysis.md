@@ -24,4 +24,4 @@ This process is define in 2 different functions in 2 diiferent location
   4. `where.yahooapis.com`
 
 - [couch7 DB Data (Anonymized)](https://2cu.atlassian.net/wiki/spaces/CCU/pages/674136069/couch7+DB+Data+Anonymized)
-- [Reduce Map access for couch7](https://2cu.atlassian.net/wiki/spaces/CCU/pages/726564877/Reduce+Map+access+for+couch7)
+- [Reduce Map access for couch7](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/726564877/Reduce_Map_access_for_couch7.md)

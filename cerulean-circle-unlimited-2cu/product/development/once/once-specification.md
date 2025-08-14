@@ -40,7 +40,7 @@
 the start method exist for every thing, as well as for once. It is the static entry point to create the first instance of ONCE on the **Class** Once.  
 In every Once implementation it is the first and only command being called to boot.
 
-With root privileges In a shell it starts the ONCE [Server Manager](https://2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE+Specification#Server-Manager).
+With root privileges In a shell it starts the ONCE [Server Manager](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE_Specification.md).
 
 With user privileges only, its starts the default ONCE Server on port 8080.
 
@@ -72,7 +72,7 @@ optional: a type:String that should be discovered
 
 **return:**
 
-a list of discovered [references](https://2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE+Specification#References)
+a list of discovered [references](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE_Specification.md)
 
 0 on successful execution or an error code with an error message on stderr
 
@@ -132,7 +132,7 @@ optional: targetState:String
 
 ### ONCE.load
 
-loads a [reference](https://2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE+Specification#References) with the corresponding loader
+loads a [reference](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE_Specification.md) with the corresponding loader
 
 after loading a reference it may be started and called
 
@@ -146,7 +146,7 @@ ior:String
 
 ### ONCE.call
 
-calls a method of an object instance represented as [reference](https://2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE+Specification#References) - no matter if local or remote, no matter which protocol: these con
+calls a method of an object instance represented as [reference](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE_Specification.md) - no matter if local or remote, no matter which protocol: these con
 
 #### **parameter:**
 
@@ -159,7 +159,7 @@ ior:String
 ### ONCE.stop
 
 the stop method exist for every thing, as well as for once. It is available as static entry point as well as a regular method on an instance of ONCE on the **Class** Once.  
-It discovers the ONCE [Server Manager](https://2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE+Specification#Server-Manager) and tries to stop it. Stop can only be executed with root privileges.
+It discovers the ONCE [Server Manager](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/345669650/ONCE_Specification.md) and tries to stop it. Stop can only be executed with root privileges.
 
 parameter:
 

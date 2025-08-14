@@ -9,8 +9,8 @@
 ### **UseCase & Spike**
 
 - [Use Cases 4 Deloitte](./deloitte-development/use-cases-4-deloitte.md)
-  - [Requirement For Social Login](https://2cu.atlassian.net/wiki/spaces/CCU/pages/357433361/Requirement+For+Social+Login)
-  - [Deloitte Spike Documentation](https://2cu.atlassian.net/wiki/spaces/CCU/pages/345571329/Deloitte+Spike+Documentation)
+  - [Requirement For Social Login](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/357433361/Requirement_For_Social_Login.md)
+  - [Deloitte Spike Documentation](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/345571329/Deloitte_Spike_Documentation.md)
 
 #### **Intent**:
 

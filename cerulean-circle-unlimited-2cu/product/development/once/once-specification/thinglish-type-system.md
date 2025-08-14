@@ -52,7 +52,7 @@ signatur
 #### Parameter: declare(`namespaceString, aClassDeclaration`)
 
 - `namespaceString` should be a string and basically represents the package of the Namespace for the Class
-- `aClassDeclaration` is a declaration of a [Class](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System+as+mapped+to+JavaScript#Class)
+- `aClassDeclaration` is a declaration of a [Class](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md+as+mapped+to+JavaScript#Class)
 
 #### Returns: `Class` instance
 
@@ -83,7 +83,7 @@ The pattern will be repeated on the `"tla"` object for `"EAM.layer1"` resulting 
 ```
 
 > [!INFO]
-> This [declaration Method](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#declare-%5BMethod%5D) is one of the most fundamental methods to the Once Kernel, since it is the only way to introduce new Types to the Environment. The declared Class will be initialized with the Thinglish Type System, which contains the [Augmentation process](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#Augmentation-process) of the Class with the [TypeDescriptor](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#TypeDescriptor) and it’s inherited [Traits](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#Traits) or [Features](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#Features).
+> This [declaration Method](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md) is one of the most fundamental methods to the Once Kernel, since it is the only way to introduce new Types to the Environment. The declared Class will be initialized with the Thinglish Type System, which contains the [Augmentation process](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md) of the Class with the [TypeDescriptor](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md) and it’s inherited [Traits](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md) or [Features](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md).
 
 ### init \[Method\]
 
@@ -163,7 +163,7 @@ A class can have the following
 
 ## Features
 
-Features are the [traits](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#Traits) that make a class unique.
+Features are the [traits](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md) that make a class unique.
 
 - name
 - package
@@ -181,7 +181,7 @@ Features are the [traits](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074
 
 ### Traits
 
-If you come from Smalltalk maybe you are used to this term then to the term [Features](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#Features).
+If you come from Smalltalk maybe you are used to this term then to the term [Features](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md).
 
 ## Augmentation process
 
@@ -193,7 +193,7 @@ Classes will be enhanced during declaration with
 
 Classes will be injected additional `attributes` during declaration:
 
-- `type`: [TypeDescriptor](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish+Type+System#TypeDescriptor)
+- `type`: [TypeDescriptor](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Thinglish_Type_System.md)
 - `displayName`: “Class: ClassName"
 - `_instanceCounter`: number  
 increased by one one on every `ClassName.getInstance()`
@@ -266,15 +266,15 @@ TypeDescriptor
 
 ## name \[Attribute\]
 
-The fully qualified name of the [Class](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System#Class) that is described by this TypeDescriptor. From TypeDescriptor `this.class.package`
+The fully qualified name of the [Class](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md#Class) that is described by this TypeDescriptor. From TypeDescriptor `this.class.package`
 
 ## class \[Attribute\]
 
-Reference to the [Class](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System#Class) that is described by this TypeDescriptor.
+Reference to the [Class](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md#Class) that is described by this TypeDescriptor.
 
 ## originalClass \[Attribute\]
 
-This Reference to the [Class](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System#Class) that is only relevant, if the Component name is the one of an Interface and the Implementation Class has a different name.
+This Reference to the [Class](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md#Class) that is only relevant, if the Component name is the one of an Interface and the Implementation Class has a different name.
 
 ![](https://2cu.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -308,11 +308,11 @@ TypeDescriptor
 
 ## extends \[Attribute\]
 
-Reference to the [Class](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System) that is extended by the TypeDescriptor `this.class`, in other words, reference to the super class.
+Reference to the [Class](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md) that is extended by the TypeDescriptor `this.class`, in other words, reference to the super class.
 
 ## implements \[Attribute\]
 
-Contains the list of all effectively implemented interfaces as an Array of Classes. During [declaration](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System#declare-%5BMethod%5D) all these interfaces will be implemented with `Thinglish._addInterface(...)` by adding the missing methods to the Class and with `Thinglish._addImplementation(...)`to the Interfaces TypeDescriptors `this.implementations` Array.
+Contains the list of all effectively implemented interfaces as an Array of Classes. During [declaration](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md#declare-%5BMethod%5D) all these interfaces will be implemented with `Thinglish._addInterface(...)` by adding the missing methods to the Class and with `Thinglish._addImplementation(...)`to the Interfaces TypeDescriptors `this.implementations` Array.
 
 ## interfaces \[Property\]
 
@@ -323,7 +323,7 @@ readonly
   - **getter:** `get interfaces() { return this.object.class.implements; }`  
 **returns** the originally implemented Interface list by the TypeDescriptor `this.class`
 
-while TypeDescriptor `this.implements` returns the list of [all effectively implemented interfaces](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System#implements-%5BAttribute%5D).
+while TypeDescriptor `this.implements` returns the list of [all effectively implemented interfaces](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md#implements-%5BAttribute%5D).
 
 ## version \[Property\]
 
@@ -344,7 +344,7 @@ signatur
 
 - `object` should be a JSON that contains the known values of the new TypeDescriptor
   - case `object` is a String
-    - then only TypeDescriptor `this.name` is set while `this` is initialized with this [declaration JSON](https://2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type+System#Declaration-JSON)
+    - then only TypeDescriptor `this.name` is set while `this` is initialized with this [declaration JSON](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/753074177/Type_System.md#Declaration-JSON)
 
 #### Returns: `TypeDescriptor` instance
 

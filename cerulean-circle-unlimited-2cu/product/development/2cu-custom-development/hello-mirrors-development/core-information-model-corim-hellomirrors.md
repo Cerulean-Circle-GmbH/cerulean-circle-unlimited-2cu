@@ -48,29 +48,29 @@ Ideas collection
 ### Business Processes and Use Cases
 
 - [BP maintaining Communities (Draft)](https://2cu.atlassian.net/wiki/spaces/CCU/pages/901775387/BP+maintaining+Communities+Draft)
-  - [UC inform FamilyMember](https://2cu.atlassian.net/wiki/spaces/CCU/pages/890142833/UC+inform+FamilyMember)
-  - [UC control SytemAccess\*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411469/UC+control+SytemAccess)
-  - [UC modify Feedback](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906919945/UC+modify+Feedback)
-  - [UC modify Membership\*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906919976/UC+modify+Membership)
-  - [UC modify FamilyMemberProfile](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411504/UC+modify+FamilyMemberProfile)
+  - [UC inform FamilyMember](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/890142833/UC_inform_FamilyMember.md)
+  - [UC control SytemAccess\*](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411469/UC_control_SytemAccess.md)
+  - [UC modify Feedback](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906919945/UC_modify_Feedback.md)
+  - [UC modify Membership\*](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906919976/UC_modify_Membership.md)
+  - [UC modify FamilyMemberProfile](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411504/UC_modify_FamilyMemberProfile.md)
 - [BP encouraging Personal Skills (Draft)](https://2cu.atlassian.net/wiki/spaces/CCU/pages/902103075/BP+encouraging+Personal+Skills+Draft)
-  - [UC present FamiliyMemberStatus](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411547/UC+present+FamiliyMemberStatus)
-  - [UC present JourneyStatus](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411578/UC+present+JourneyStatus)
-  - [UC present LessonStatus](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906920015/UC+present+LessonStatus)
+  - [UC present FamiliyMemberStatus](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411547/UC_present_FamiliyMemberStatus.md)
+  - [UC present JourneyStatus](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411578/UC_present_JourneyStatus.md)
+  - [UC present LessonStatus](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906920015/UC_present_LessonStatus.md)
 - [BP educating Health (Draft)](https://2cu.atlassian.net/wiki/spaces/CCU/pages/902135848/BP+educating+Health+Draft)
-  - [UC modify VitalData](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906920042/UC+modify+VitalData)
+  - [UC modify VitalData](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906920042/UC_modify_VitalData.md)
 - [BP maintaining ProffesionalWorkouts (Draft)](https://2cu.atlassian.net/wiki/spaces/CCU/pages/890535995/BP+maintaining+ProffesionalWorkouts+Draft)
-  - [UC control Lesson](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411625/UC+control+Lesson)
-  - [UC download Lesson\*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906920077/UC+download+Lesson)
-  - [UC provide SpotifyPlayer](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411656/UC+provide+SpotifyPlayer)
-  - [UC modify Journey](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906920108/UC+modify+Journey)
-  - [UC modify Lesson](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411688/UC+modify+Lesson)
-  - [UC modify Library\*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906920136/UC+modify+Library)
-- [BP maintaining DigitalWardrobe Draft](https://2cu.atlassian.net/wiki/spaces/CCU/pages/901709873/BP+maintaining+DigitalWardrobe+Draft)
-  - [UC modify Product\*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411727/UC+modify+Product)
+  - [UC control Lesson](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411625/UC_control_Lesson.md)
+  - [UC download Lesson\*](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906920077/UC_download_Lesson.md)
+  - [UC provide SpotifyPlayer](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411656/UC_provide_SpotifyPlayer.md)
+  - [UC modify Journey](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906920108/UC_modify_Journey.md)
+  - [UC modify Lesson](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411688/UC_modify_Lesson.md)
+  - [UC modify Library\*](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906920136/UC_modify_Library.md)
+- [BP maintaining DigitalWardrobe Draft](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/901709873/BP_maintaining_DigitalWardrobe_Draft.md)
+  - [UC modify Product\*](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411727/UC_modify_Product.md)
 - [BP utilize Mirror (Draft)\*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/902135861/BP+utilize+Mirror+Draft)
-  - [UC connect Mirror \*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/907411754/UC+connect+Mirror)
-  - [UC modify MirrorSettings \*](https://2cu.atlassian.net/wiki/spaces/CCU/pages/906920192/UC+modify+MirrorSettings)
+  - [UC connect Mirror \*](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/907411754/UC_connect_Mirror.md)
+  - [UC modify MirrorSettings \*](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/906920192/UC_modify_MirrorSettings.md)
 
 ![](https://2cu.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -200,7 +200,7 @@ Goal: immersion into Mirror
 |     | Membership | Subscription linked to FamilyMember Profile(s) |
 |     | LessonFeedback | Summary of Vital data + LessonProgress |
 |     | LessonStatus | LessonProgress |
-|     | LessonDetails | Jounrney Detail Pages in the course: [Desciption Journey Detail Page MVP1](https://2cu.atlassian.net/wiki/spaces/CCU/pages/636223509/Desciption+Journey+Detail+Page+MVP1) |
+|     | LessonDetails | Jounrney Detail Pages in the course: [Desciption Journey Detail Page MVP1](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/636223509/Desciption_Journey_Detail_Page_MVP1.md) |
 |     | LessonProgress | % of lesson done |
 |     | LessonCheckmark | check marks for view, not finish, Part of LessonStatus |
 |     | LessonMyList | Favorite Marking |

@@ -4,14 +4,14 @@ Legend: viewed, repeated, done myself, reproduced, transfered, understood, teach
 
 ### Progess
 
-- [WODA Training - Nico](https://2cu.atlassian.net/wiki/spaces/~63c15f6c157d36f444853b0b/pages/1856536577/WODA+Training+-+Nico)
-- [WODA Training - Max](https://2cu.atlassian.net/wiki/spaces/~61e527d508c1f7006a08aa11/pages/1856995358/WODA+Training+-+Max)
-- [WODA Training - Daniel](https://2cu.atlassian.net/wiki/spaces/~61b8580091c049006fafe159/pages/1866203137/WODA+Training+-+Daniel)
-- [WODA Training - Herman](https://2cu.atlassian.net/wiki/spaces/~63c15bed49a31f95b8743bb2/pages/1868890113/WODA+Training+-+Herman)
-- [WODA Training - Johannes](https://2cu.atlassian.net/wiki/spaces/~63db92100015d0b19c210eee/pages/1870561285/WODA+Training+-+Johannes)
-- [WODA Training - Ralf](https://2cu.atlassian.net/wiki/spaces/~63cf94144a3c3294ac04136b/pages/1876918273/WODA+Training+-+Ralf)
+- [WODA Training - Nico](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1856536577/WODA_Training_-_Nico.md)
+- [WODA Training - Max](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1856995358/WODA_Training_-_Max.md)
+- [WODA Training - Daniel](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1866203137/WODA_Training_-_Daniel.md)
+- [WODA Training - Herman](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1868890113/WODA_Training_-_Herman.md)
+- [WODA Training - Johannes](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1870561285/WODA_Training_-_Johannes.md)
+- [WODA Training - Ralf](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1876918273/WODA_Training_-_Ralf.md)
 - [https://2cu.atlassian.net/l/cp/EHNAN4H0](https://2cu.atlassian.net/l/cp/EHNAN4H0)
-- [WODA Training - David](https://2cu.atlassian.net/wiki/spaces/DG/pages/1977417729/WODA+Training+-+David)
+- [WODA Training - David](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1977417729/WODA_Training_-_David.md)
 
 # Content Overview
 

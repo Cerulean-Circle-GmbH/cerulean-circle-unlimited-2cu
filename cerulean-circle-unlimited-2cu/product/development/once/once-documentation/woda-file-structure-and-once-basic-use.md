@@ -11,8 +11,8 @@ If you are here and want to understand the code structure of WODA and how WODA w
 ### Prerequisite:-
 
 - Bash basic understanding
-- [EAMD installation](https://2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE+Documentation#Getting-Started-Overview)
-- [Woda installation](https://2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE+Documentation#start-with-a-naked-bash)
+- [EAMD installation](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#Getting-Started-Overview)
+- [Woda installation](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#start-with-a-naked-bash)
 - Open EAMD “Components“ folder in your IDE. (project root is Components)
 
 ### Woda File Tree in Code:-

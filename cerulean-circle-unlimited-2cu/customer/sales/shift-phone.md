@@ -15,7 +15,7 @@ Creating the Shift Portal and Shifter Network applications on WODA
 
 ### **Additional Team Members:**
 
-[Scrum Teams](https://2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum+Teams)
+[Scrum Teams](../../../2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum_Teams.md)
 
 ### **CRM link SiMPL:**
 
