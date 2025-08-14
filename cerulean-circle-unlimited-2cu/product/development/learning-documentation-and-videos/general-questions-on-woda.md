@@ -4,7 +4,7 @@
   1. cloning the IdealComponent
   2. use WODA in the docker image and use
     1. eamd create component …
-    2. sh - [EAMD Scripts](../../development/once/once-documentation/eamd-scripts.md) / [OOSH](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/269156359/OOSH.md) sh
+    2. sh - [EAMD Scripts](../../development/once/once-documentation/eamd-scripts.md) / [OOSH](./2cu.atlassian.net/wiki/spaces/CCU/pages/269156359/OOSH.md) sh
 2. What is the lifecycle of a component?
   1. [Web 4.0](../../development/coast/web-40.md)
   2. do more

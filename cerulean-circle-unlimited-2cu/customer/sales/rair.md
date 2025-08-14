@@ -29,7 +29,7 @@ The VP Software Team is allocated to this Project
 
 **Relevant Contact:** Nikita Osaulenko - nosaulenko@vp.software
 
-[Scrum Teams](../../../2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum_Teams.md)
+[Scrum Teams](./2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum_Teams.md)
 
 ### **CRM link SiMPL:**
 

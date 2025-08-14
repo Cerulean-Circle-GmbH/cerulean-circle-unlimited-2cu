@@ -20,5 +20,5 @@
 
 ## Where do I continue if I have access to naked linux and I am logged in as root
 
-Read here: [../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#use-the-once.sh-script](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#use-the-once.sh-script)  
+Read here: [./2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#use-the-once.sh-script](./2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#use-the-once.sh-script)  
 and start on code line 6 and 7

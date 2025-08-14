@@ -111,9 +111,9 @@
 
 [Change Management WODA servers](./infrastructure-value-stream-overview/change-management-woda-servers.md)
 
-[Test WODA Server Handover](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1795555329/Test_WODA_Server_Handover.md)
+[Test WODA Server Handover](./2cu.atlassian.net/wiki/spaces/CCU/pages/1795555329/Test_WODA_Server_Handover.md)
 
-[Infrastructure Value Stream](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/747372568/Infrastructure_Value_Stream.md)
+[Infrastructure Value Stream](./2cu.atlassian.net/wiki/spaces/CCU/pages/747372568/Infrastructure_Value_Stream.md)
 
 ## Server Information
 
@@ -129,11 +129,11 @@
   - [Structr Server (test.wo-da.de)](https://test.wo-da.de:9183/structr/)
 - Live Server
   - [https://test.wo-da.de:9183/structr/#schema](https://test.wo-da.de:9183/structr/#schema) (!!!)
-  - [NEOM Structr Schema](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1919713281/NEOM_Structr_Schema.md)
+  - [NEOM Structr Schema](./2cu.atlassian.net/wiki/spaces/CCU/pages/1919713281/NEOM_Structr_Schema.md)
     - [https://test.wo-da.de:8083/structr/#schema](https://test.wo-da.de:8083/structr/#schema) (!!!)
-  - [NEOM - WODA.test - infrastructure and servers](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1879932936/NEOM_-_WODA.test_-_infrastructure_and_servers.md)
-    - [Jenkins server on WODA.test](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1880096773/Jenkins_server_on_WODA.test.md)
-    - [PlantUML on WODA.test](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1879769146/PlantUML_on_WODA.test.md)
+  - [NEOM - WODA.test - infrastructure and servers](./2cu.atlassian.net/wiki/spaces/CCU/pages/1879932936/NEOM_-_WODA.test_-_infrastructure_and_servers.md)
+    - [Jenkins server on WODA.test](./2cu.atlassian.net/wiki/spaces/CCU/pages/1880096773/Jenkins_server_on_WODA.test.md)
+    - [PlantUML on WODA.test](./2cu.atlassian.net/wiki/spaces/CCU/pages/1879769146/PlantUML_on_WODA.test.md)
 
 > [!CAUTION]
 > - [https://test.wo-da.de:8083/structr/#schema](https://test.wo-da.de:8083/structr/#schema) is currently on Structr test/sprint29

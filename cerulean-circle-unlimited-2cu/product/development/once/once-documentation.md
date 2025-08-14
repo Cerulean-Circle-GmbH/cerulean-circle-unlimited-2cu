@@ -63,8 +63,8 @@ you need root rights to do this. so either login as root or sudo the command
       2. `ln -s /var/dev/EAMD.ucp`
   5. switch to branch “origin/dev"
     1. `git checkout -t origin/dev`
-  6. follow the procedure in section '**start once local**' [../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#Start-Once-Server-Local](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#Start-Once-Server-Local)
-  7. [Run the application](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#Start-Once-Server-Local)
+  6. follow the procedure in section '**start once local**' [./2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#Start-Once-Server-Local](./2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#Start-Once-Server-Local)
+  7. [Run the application](./2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md#Start-Once-Server-Local)
     1. [http://localhost:8080/woda](http://localhost:8080/woda) - Main application
     2. [http://localhost:8080/EAMD.ucp/](http://localhost:8080/EAMD.ucp/) - Component Directory structure
   8. Drag and drop any component from **Component directory structure** to **Main application** overview panel.

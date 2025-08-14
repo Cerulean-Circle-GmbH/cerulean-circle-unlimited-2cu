@@ -1,10 +1,10 @@
 # Infrastructure
 
 - [Infrastructure Value Stream Overview](./infrastructure/infrastructure-value-stream-overview.md)
-  - [Infrastructure Value Stream](../../../2cu.atlassian.net/wiki/spaces/CCU/pages/747372568/Infrastructure_Value_Stream.md)
+  - [Infrastructure Value Stream](./2cu.atlassian.net/wiki/spaces/CCU/pages/747372568/Infrastructure_Value_Stream.md)
 - [Install WODA development environment using WODA.2023 docker image](../../../cerulean-circle-unlimited-2cu/product/development/once/once-install-guide/install-woda-development-environment-using-woda2023-docker-image.md)
   - [WODA 2 Local Docker Setup](../../../cerulean-circle-unlimited-2cu/product/development/learning-documentation-and-videos/woda-2-local-docker-setup.md) DEPRECATED
-- [Keycloak integration](../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1062993923/Keycloak_integration.md)
+- [Keycloak integration](./2cu.atlassian.net/wiki/spaces/CCU/pages/1062993923/Keycloak_integration.md)
 
 ## [Scenarios](https://test-wo-daEAMD.ucp/Scenarios/)
 

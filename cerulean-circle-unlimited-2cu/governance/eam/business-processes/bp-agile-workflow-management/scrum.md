@@ -17,11 +17,11 @@ A quick intro here: [https://less.works/attachments/introduction-to-LeSS-by-Daws
 
 ## Overview
 
-- [Sprint characteristics](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/81133583/Sprint_characteristics.md)
-- [Definition of DONE](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/119111681/Definition_of_DONE.md)
-- [Scrum Teams](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum_Teams.md)
-- [Scrum Templates](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/105512982/Scrum_Templates.md)
-- [Sprint planning](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/88375379/Sprint_planning.md)
-- [Reviews](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/95060086/Reviews.md)
-- [Retros team](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/95158337/Retros_team.md)
-- [Retros all](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/95060101/Retros_all.md)
+- [Sprint characteristics](./2cu.atlassian.net/wiki/spaces/CCU/pages/81133583/Sprint_characteristics.md)
+- [Definition of DONE](./2cu.atlassian.net/wiki/spaces/CCU/pages/119111681/Definition_of_DONE.md)
+- [Scrum Teams](./2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum_Teams.md)
+- [Scrum Templates](./2cu.atlassian.net/wiki/spaces/CCU/pages/105512982/Scrum_Templates.md)
+- [Sprint planning](./2cu.atlassian.net/wiki/spaces/CCU/pages/88375379/Sprint_planning.md)
+- [Reviews](./2cu.atlassian.net/wiki/spaces/CCU/pages/95060086/Reviews.md)
+- [Retros team](./2cu.atlassian.net/wiki/spaces/CCU/pages/95158337/Retros_team.md)
+- [Retros all](./2cu.atlassian.net/wiki/spaces/CCU/pages/95060101/Retros_all.md)

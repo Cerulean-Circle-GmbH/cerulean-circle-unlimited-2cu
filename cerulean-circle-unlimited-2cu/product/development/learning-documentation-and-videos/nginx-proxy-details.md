@@ -38,7 +38,7 @@ cd /var/dev/EAMD.ucp/Components/com/ceruleanCircle/EAM/1_infrastructure/DockerWo
 ./init-letsencrypt.sh
 ```
 
-new: [WODA.test Server Migration](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1805287425/WODA.test_Server_Migration.md)
+new: [WODA.test Server Migration](./2cu.atlassian.net/wiki/spaces/CCU/pages/1805287425/WODA.test_Server_Migration.md)
 
 ```
 cd /var/dev/EAMD.ucp/Scenarios/de/1blu/v36421/vhosts/de/wo-da/test/EAM/1_infrastructure/Docker/Nginx.v1.21.3

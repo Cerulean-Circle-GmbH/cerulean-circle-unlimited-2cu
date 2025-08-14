@@ -5,7 +5,7 @@ The EAMD.ucp Repository is the foundation for Web 4.0, the Internet of Services.
 Version 1.0 was created at Deutsche Bahn to Manage their Data Centers with CMM level 4 maturity: [https://box.donges.it/index.php/s/I4JZduFooQqVSiQ](https://box.donges.it/index.php/s/I4JZduFooQqVSiQ)
 
 EAMD stands for "Enterprise Architecture Management" **Descriptors**. The “.ucp” stands for the Component Standard that is used in Web 4.0:  
-[Units - Components - Packages](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md)  
+[Units - Components - Packages](./2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md)  
 in short [UCP](./eamducp-repository/ucp.md)  
 or UcpComponents
 

@@ -10,7 +10,7 @@ A shell script is a computer program designed to be run by the Unix/Linux shell.
 
 ### EAMD installation steps?
 
-Follow this “[LINK](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md)” to step by step installation steps.
+Follow this “[LINK](./2cu.atlassian.net/wiki/spaces/CCU/pages/38436869/ONCE_Documentation.md)” to step by step installation steps.
 
 ### Known Issue
 

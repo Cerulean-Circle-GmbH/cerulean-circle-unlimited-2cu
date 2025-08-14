@@ -15,4 +15,4 @@ Currently we are applying Manual Testing of our “to be delivered” components
     2. or by appropriately describing the issue in the testing document and notifying the responsible developer
 4. Bugs that are found are to be added to the Backlog as a bug, along with a notification via Skype/Email to the developer/s responsible for the component
 
-Based of: [Test Cases](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/547553281/Test_Cases.md) Timer Component
+Based of: [Test Cases](./2cu.atlassian.net/wiki/spaces/CCU/pages/547553281/Test_Cases.md) Timer Component

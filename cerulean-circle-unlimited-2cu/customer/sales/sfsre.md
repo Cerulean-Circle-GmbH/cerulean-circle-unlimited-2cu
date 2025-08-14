@@ -16,7 +16,7 @@ TBD
 
 **Relevant Contact:** potentially Rudolf Schmidt - [info@rudolfschmidt.com](mailto:info@rudolfschmidt.com)
 
-[Scrum Teams](../../../2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum_Teams.md)
+[Scrum Teams](./2cu.atlassian.net/wiki/spaces/CCU/pages/88211457/Scrum_Teams.md)
 
 ### **CRM link SiMPL:**
 

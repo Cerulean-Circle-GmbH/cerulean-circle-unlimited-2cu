@@ -225,7 +225,7 @@ Whenever “model” changes in the code HTML re-render and show updated value.
 
 # WebBean Rendering Version 1.0.0
 
-WeBeans, Woda lifecycle, and method list: <[LINK](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/486866962/WebBean_Rendering_Version_1.0.0.md)\>
+WeBeans, Woda lifecycle, and method list: <[LINK](./2cu.atlassian.net/wiki/spaces/CCU/pages/486866962/WebBean_Rendering_Version_1.0.0.md)\>
 
 # An important and must method to use in WeBean
 
