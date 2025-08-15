@@ -2,6 +2,13 @@
 
 This is a complete navigation index for the Confluence export of Cerulean Circle Unlimited 2CU.
 
+## 📋 Documentation & Process
+
+- [**PDCA Cycle Documentation**](./PDCA/) - Plan-Do-Check-Act documentation for all maintenance and development activities
+- [**Maintenance System**](./maintenance/) - Repository maintenance tools and specifications
+
+## 📁 Repository Content
+
 - [Cerulean Circle Unlimited 2CU Overview](./cerulean-circle-unlimited-2cu.md)
 - Corporate Strategy
   - [Corporate Strategy Overview](./cerulean-circle-unlimited-2cu/corporate-strategy.md)

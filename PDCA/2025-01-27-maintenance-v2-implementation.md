@@ -1,3 +1,5 @@
+[📋 PDCA Index](./README.md) | [🏠 Repository Root](../index.md) | [🔧 Maintenance](../maintenance/)
+
 # PDCA: Maintenance System v2.0 - Dual-Context Navigation Implementation
 
 **Date:** 2025-01-27  
