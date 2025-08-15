@@ -25,7 +25,7 @@ WHAT A MESS!
 
 # What needs to be done
 
-A simple dynamic Loader system for real Components like in the [UCP](../../../development/coast/eamducp-repository/ucp.md) standard.  
+A simple dynamic Loader system for real Components like in the [Units - Components - Packages](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md) in short [UCP](../../../development/coast/eamducp-repository/ucp.md) standard.  
 In optimal fully extensible for all the old legacy ways as dedicated Loader implementations.
 
 # How

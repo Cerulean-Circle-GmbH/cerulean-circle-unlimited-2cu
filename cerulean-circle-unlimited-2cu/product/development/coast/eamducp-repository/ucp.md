@@ -31,7 +31,7 @@ So any environment can find out what the component is about, how to display it, 
 
 ## Reference Implementation for Web 4.0
 
-The [EAMD.ucp Repository](../eamducp-repository.md) is the place to lookup UCP components. The ONCE kernel will manage the lifecycle of the UCP components.
+The [EAMD.ucp Repository](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/) is the place to lookup UCP components. In short [EAMD.ucp Repository](../eamducp-repository.md). The ONCE kernel will manage the lifecycle of the UCP components.
 
 ## Comparison and Discussion of Implementations
 
