@@ -1,0 +1,215 @@
+<svg version="1.1" baseProfile="full" width="866.5625" height="1706" viewbox="0 0 866.5625 1706" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font:bold  12pt Helvetica, Helvetica, sans-serif;;stroke-linejoin:round;stroke-linecap:round">
+  <desc >[&lt;actor&gt;user]
+
+[metamask-ui|
+   [tools|
+     react
+     redux
+     thunk
+     ethUtils
+     jazzicon
+   ]
+   [components|
+     app
+     account-detail
+     accounts
+     locked-screen
+     restore-vault
+     identicon
+     config
+     info
+   ]
+   [reducers|
+     app
+     metamask
+     identities
+   ]
+   [actions|
+     [accountManager]
+   ]
+   [components]:-&gt;[actions]
+   [actions]:-&gt;[reducers]
+   [reducers]:-&gt;[components]
+]
+
+[web dapp|
+  [ui code]
+  [web3]
+  [metamask-inpage]
+  
+  [&lt;actor&gt;ui developer]
+  [ui developer]-&gt;[ui code]
+  [ui code]&lt;-&gt;[web3]
+  [web3]&lt;-&gt;[metamask-inpage]
+]
+
+[metamask-background|
+  [provider-engine]
+  [hooked wallet subprovider]
+  [id store]
+  
+  [provider-engine]&lt;-&gt;[hooked wallet subprovider]
+  [hooked wallet subprovider]&lt;-&gt;[id store]
+  [config manager|
+    [rpc configuration]
+    [encrypted keys]
+    [wallet nicknames]
+  ]
+  
+  [provider-engine]&lt;-[config manager]
+  [id store]&lt;-&gt;[config manager]
+]
+
+[user]&lt;-&gt;[metamask-ui]
+
+[user]&lt;:--:&gt;[web dapp]
+
+[metamask-contentscript|
+  [plugin restart detector]
+  [rpc passthrough]
+]
+
+[rpc |
+  [ethereum blockchain |
+    [contracts]
+    [accounts]
+  ]
+]
+
+[web dapp]&lt;:--:&gt;[metamask-contentscript]
+[metamask-contentscript]&lt;-&gt;[metamask-background]
+[metamask-background]&lt;-&gt;[metamask-ui]
+[metamask-background]&lt;-&gt;[rpc]
+</desc>
+  <rect x="0" y="0" height="1706" width="866.5625" style="stroke:none; fill:transparent;"></rect>
+  <path d="M321.8 63.6 L157.4 103.5 L157.4 301 L157.4 301 L157.4 498.5 L157.4 498.5 L157.4 577.5 L157.4 577.5 L157.4 656.5 L157.4 656.5 L157.4 885.5 L157.4 885.5 L157.4 1114.5 L157.4 1114.5 L158.3 1127.8 L158.3 1127.8 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M152.5 1121.6 L158.3 1127.8 L163.2 1120.8 L158.7 1134.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M316.6 70.4 L321.8 63.6 L314.1 60 L328.3 62.1 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M391.2 66.3 L528.6 103.5 L528.6 110.2 L528.6 110.2 " style="stroke:#33322E;fill:none;stroke-dasharray:6 6;stroke-width:3;"></path>
+  <path d="M523.2 110.2 L528.6 110.2 L533.9 110.2 L528.6 123.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M392.6 61.1 L391.2 66.3 L389.8 71.4 L378.3 62.8 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M528.6 491.8 L528.6 498.5 L528.6 505.2 L528.6 505.2 " style="stroke:#33322E;fill:none;stroke-dasharray:6 6;stroke-width:3;"></path>
+  <path d="M523.2 505.2 L528.6 505.2 L533.9 505.2 L528.6 518.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M533.9 491.8 L528.6 491.8 L523.2 491.8 L528.6 478.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M528.6 643.2 L528.6 656.5 L528.6 669.8 L528.6 669.8 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M523.2 663.2 L528.6 669.8 L533.9 663.2 L528.6 676.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M533.9 649.8 L528.6 643.2 L523.2 649.8 L528.6 636.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M363.9 1099.8 L352.6 1114.5 L329.7 1152.7 L329.7 1152.7 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M328.5 1144.3 L329.7 1152.7 L337.7 1149.8 L326.3 1158.4 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M364.1 1108.3 L363.9 1099.8 L355.6 1101.8 L368 1094.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M547.4 1101.1 L548.6 1114.5 L548.6 1297.3 L548.6 1297.3 " style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M543.2 1290.7 L548.6 1297.3 L553.9 1290.7 L548.6 1304 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M553.3 1107.3 L547.4 1101.1 L542.7 1108.2 L546.8 1094.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <rect x="28.5" y="1134.5" height="544" width="297.75" data-name="metamask-ui" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M28.5 1165.5 L326.3 1165.5" data-name="metamask-ui" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="177.4" y="1156" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="metamask-ui">metamask-ui</text>
+  <path d="M172.2 1360.5 L158.8 1380.5 L158.8 1393.8 L158.8 1393.8 " data-name="metamask-ui" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M153.4 1387.2 L158.8 1393.8 L164.1 1387.2 L158.8 1400.5 Z" data-name="metamask-ui" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M158.8 1518.5 L158.8 1538.5 L178.7 1557.3 L178.7 1557.3 " data-name="metamask-ui" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M170.1 1556.6 L178.7 1557.3 L177.5 1548.9 L183.5 1561.9 Z" data-name="metamask-ui" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M273.5 1561.9 L298.3 1538.5 L298.3 1459.5 L298.3 1459.5 L298.3 1380.5 L298.3 1380.5 L288.5 1366 L288.5 1366 " data-name="metamask-ui" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M296.6 1368.6 L288.5 1366 L287.8 1374.5 L284.8 1360.5 Z" data-name="metamask-ui" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <rect x="56.5" y="1216.5" height="122" width="74" data-name="tools" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M56.5 1247.5 L130.5 1247.5" data-name="tools" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="93.5" y="1238" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="tools">tools</text>
+  <text x="64.5" y="1269" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="tools">react</text>
+  <text x="64.5" y="1284" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="tools">redux</text>
+  <text x="64.5" y="1299" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="tools">thunk</text>
+  <text x="64.5" y="1314" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="tools">ethUtils</text>
+  <text x="64.5" y="1329" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="tools">jazzicon</text>
+  <rect x="170.5" y="1193.5" height="167" width="116" data-name="components" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M170.5 1224.5 L286.5 1224.5" data-name="components" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="228.5" y="1215" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="components">components</text>
+  <text x="178.5" y="1246" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">app</text>
+  <text x="178.5" y="1261" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">account-detail</text>
+  <text x="178.5" y="1276" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">accounts</text>
+  <text x="178.5" y="1291" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">locked-screen</text>
+  <text x="178.5" y="1306" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">restore-vault</text>
+  <text x="178.5" y="1321" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">identicon</text>
+  <text x="178.5" y="1336" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">config</text>
+  <text x="178.5" y="1351" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="components">info</text>
+  <rect x="183.5" y="1558.5" height="92" width="90" data-name="reducers" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M183.5 1589.5 L273.5 1589.5" data-name="reducers" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="228.5" y="1580" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="reducers">reducers</text>
+  <text x="191.5" y="1611" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="reducers">app</text>
+  <text x="191.5" y="1626" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="reducers">metamask</text>
+  <text x="191.5" y="1641" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;" data-name="reducers">identities</text>
+  <rect x="59.5" y="1400.5" height="118" width="199" data-name="actions" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M59.5 1431.5 L258.5 1431.5" data-name="actions" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="159" y="1422" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="actions">actions</text>
+  <rect x="87.5" y="1459.5" height="31" width="143" data-name="accountManager" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="159" y="1481" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="accountManager">accountManager</text>
+  <rect x="425.5" y="123.5" height="355" width="207" data-name="web dapp" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M425.5 154.5 L632.5 154.5" data-name="web dapp" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="529" y="145" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="web dapp">web dapp</text>
+  <path d="M529 237.5 L529 257.5 L529 270.8 L529 270.8 " data-name="web dapp" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M523.7 264.2 L529 270.8 L534.3 264.2 L529 277.5 Z" data-name="web dapp" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M529 315.2 L529 328.5 L529 341.8 L529 341.8 " data-name="web dapp" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M523.7 335.2 L529 341.8 L534.3 335.2 L529 348.5 Z" data-name="web dapp" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M534.3 321.8 L529 315.2 L523.7 321.8 L529 308.5 Z" data-name="web dapp" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M529 386.2 L529 399.5 L529 412.8 L529 412.8 " data-name="web dapp" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M523.7 406.2 L529 412.8 L534.3 406.2 L529 419.5 Z" data-name="web dapp" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M534.3 392.8 L529 386.2 L523.7 392.8 L529 379.5 Z" data-name="web dapp" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <rect x="493.5" y="277.5" height="31" width="72" data-name="ui code" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="529.5" y="299" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ui code">ui code</text>
+  <rect x="501.5" y="348.5" height="31" width="56" data-name="web3" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="529.5" y="370" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="web3">web3</text>
+  <rect x="453.5" y="419.5" height="31" width="151" data-name="metamask-inpage" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="529" y="441" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="metamask-inpage">metamask-inpage</text>
+  <circle r="4" cx="529" cy="194.5" data-name="ui developer" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></circle>
+  <path d="M529 198.5 L529 206.5" data-name="ui developer" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M525 202.5 L533 202.5" data-name="ui developer" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M525 210.5 L529 206.5 L533 210.5" data-name="ui developer" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="529.5" y="228" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ui developer">ui developer</text>
+  <rect x="218.5" y="676.5" height="418" width="621" data-name="metamask-background" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M218.5 707.5 L839.5 707.5" data-name="metamask-background" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="529" y="698" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="metamask-background">metamask-background</text>
+  <path d="M567.7 769.4 L603.8 786.5 L603.8 799.8 L603.8 799.8 " data-name="metamask-background" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M598.4 793.2 L603.8 799.8 L609.1 793.2 L603.8 806.5 Z" data-name="metamask-background" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M576 767.4 L567.7 769.4 L571.4 777 L561.6 766.5 Z" data-name="metamask-background" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M603.8 844.2 L603.8 857.5 L603.8 870.8 L603.8 870.8 " data-name="metamask-background" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M598.4 864.2 L603.8 870.8 L609.1 864.2 L603.8 877.5 Z" data-name="metamask-background" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M609.1 850.8 L603.8 844.2 L598.4 850.8 L603.8 837.5 Z" data-name="metamask-background" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M490.3 769.4 L454.3 786.5 L454.3 822 L454.3 822 L454.3 857.5 L454.3 857.5 L454.3 893 L454.3 893 L454.3 928.5 L454.3 928.5 L473.2 948.5 L473.2 948.5 " data-name="metamask-background" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M486.6 777 L490.3 769.4 L482 767.4 L496.4 766.5 Z" data-name="metamask-background" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M603.8 915.2 L603.8 928.5 L589.4 943.7 L589.4 943.7 " data-name="metamask-background" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M590.1 935.1 L589.4 943.7 L597.9 942.5 L584.8 948.5 Z" data-name="metamask-background" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M609.1 921.8 L603.8 915.2 L598.4 921.8 L603.8 908.5 Z" data-name="metamask-background" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;stroke-width:3;"></path>
+  <rect x="246.5" y="948.5" height="118" width="565" data-name="config manager" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M246.5 979.5 L811.5 979.5" data-name="config manager" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="529" y="970" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="config manager">config manager</text>
+  <rect x="274.5" y="1007.5" height="31" width="148" data-name="rpc configuration" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="348.5" y="1029" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="rpc configuration">rpc configuration</text>
+  <rect x="462.5" y="1007.5" height="31" width="133" data-name="encrypted keys" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="529" y="1029" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="encrypted keys">encrypted keys</text>
+  <rect x="635.5" y="1007.5" height="31" width="148" data-name="wallet nicknames" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="709.5" y="1029" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="wallet nicknames">wallet nicknames</text>
+  <rect x="460.5" y="735.5" height="31" width="137" data-name="provider-engine" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="529" y="757" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="provider-engine">provider-engine</text>
+  <rect x="494.5" y="806.5" height="31" width="219" data-name="hooked wallet subprovider" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="604" y="828" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="hooked wallet subprovider">hooked wallet subprovider</text>
+  <rect x="566.5" y="877.5" height="31" width="74" data-name="id store" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="603.5" y="899" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="id store">id store</text>
+  <rect x="316.5" y="518.5" height="118" width="424" data-name="metamask-contentscript" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M316.5 549.5 L740.5 549.5" data-name="metamask-contentscript" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="528.5" y="540" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="metamask-contentscript">metamask-contentscript</text>
+  <rect x="344.5" y="577.5" height="31" width="186" data-name="plugin restart detector" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="437.5" y="599" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="plugin restart detector">plugin restart detector</text>
+  <rect x="570.5" y="577.5" height="31" width="142" data-name="rpc passthrough" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="641.5" y="599" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="rpc passthrough">rpc passthrough</text>
+  <rect x="385.5" y="1304.5" height="205" width="326" data-name="rpc" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M385.5 1335.5 L711.5 1335.5" data-name="rpc" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="548.5" y="1326" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="rpc">rpc</text>
+  <rect x="413.5" y="1363.5" height="118" width="270" data-name="ethereum blockchain" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;stroke-width:3;"></rect>
+  <path d="M413.5 1394.5 L683.5 1394.5" data-name="ethereum blockchain" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="548.5" y="1385" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="ethereum blockchain">ethereum blockchain</text>
+  <rect x="441.5" y="1422.5" height="31" width="88" data-name="contracts" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="485.5" y="1444" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="contracts">contracts</text>
+  <rect x="569.5" y="1422.5" height="31" width="86" data-name="accounts" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></rect>
+  <text x="612.5" y="1444" style="fill: #33322E;font:bold  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="accounts">accounts</text>
+  <circle r="4" cx="353.3" cy="40.5" data-name="user" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;stroke-width:3;"></circle>
+  <path d="M353.3 44.5 L353.3 52.5" data-name="user" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M349.3 48.5 L357.3 48.5" data-name="user" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <path d="M349.3 56.5 L353.3 52.5 L357.3 56.5" data-name="user" style="stroke:#33322E;fill:none;stroke-dasharray:none;stroke-width:3;"></path>
+  <text x="353.5" y="74" style="fill: #33322E;font:normal  12pt Helvetica, Helvetica, sans-serif;text-anchor: middle;" data-name="user">user</text>
+</svg>
