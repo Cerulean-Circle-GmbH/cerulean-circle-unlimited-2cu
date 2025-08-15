@@ -1,4 +1,4 @@
-[📁 Cc Internals](../cc-internals.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000007/matrix-of-ccg-products.md) | [🌐 Page Structure local SymLink](./matrix-of-ccg-products.page.md)
+[📁 Cc Internals GitHub](/cerulean-circle-unlimited-2cu/governance/cc-internals.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/governance/cc-internals/matrix-of-ccg-products.md) | [🌐 Index Structure local SymLink](./matrix-of-ccg-products.entry.md)
 
 # Matrix of CCG Products
 

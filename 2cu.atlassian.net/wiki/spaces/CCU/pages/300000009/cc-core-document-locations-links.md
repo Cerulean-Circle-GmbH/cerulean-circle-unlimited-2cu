@@ -1,4 +1,4 @@
-[📁 Cc Internals](../cc-internals.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000009/cc-core-document-locations-links.md) | [🌐 Page Structure local SymLink](./cc-core-document-locations-links.page.md)
+[📁 Cc Internals GitHub](/cerulean-circle-unlimited-2cu/governance/cc-internals.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/governance/cc-internals/cc-core-document-locations-links.md) | [🌐 Index Structure local SymLink](./cc-core-document-locations-links.entry.md)
 
 # CC Core Document Locations (Links)
 

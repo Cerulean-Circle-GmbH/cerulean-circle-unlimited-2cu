@@ -1,4 +1,4 @@
-[📁 Governance](../governance.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000004/product-requirements.md) | [🌐 Page Structure local SymLink](./product-requirements.page.md)
+[📁 Governance GitHub](/cerulean-circle-unlimited-2cu/governance.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/governance/product-requirements.md) | [🌐 Index Structure local SymLink](./product-requirements.entry.md)
 
 # Product requirements
 

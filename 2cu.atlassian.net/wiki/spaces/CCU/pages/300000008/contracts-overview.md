@@ -1,4 +1,4 @@
-[📁 Cc Internals](../cc-internals.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000008/contracts-overview.md) | [🌐 Page Structure local SymLink](./contracts-overview.page.md)
+[📁 Cc Internals GitHub](/cerulean-circle-unlimited-2cu/governance/cc-internals.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/governance/cc-internals/contracts-overview.md) | [🌐 Index Structure local SymLink](./contracts-overview.entry.md)
 
 # Contracts overview
 

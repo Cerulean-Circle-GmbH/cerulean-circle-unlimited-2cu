@@ -1,0 +1,1 @@
+../../../2cu.atlassian.net/wiki/spaces/CCU/pages/300000009/cc-core-document-locations-links.md
