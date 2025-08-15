@@ -1,0 +1,153 @@
+name: Auto-Recovery
+
+on:
+  repository_dispatch:
+    types: [health-check-failed]
+  workflow_dispatch:
+    inputs:
+      recovery_type:
+        description: 'Recovery type'
+        required: true
+        default: 'auto'
+        type: choice
+        options:
+        - auto
+        - full
+        - rollback
+
+jobs:
+  auto-recover:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Full history for recovery
+    
+    - name: Diagnose issues
+      id: diagnose
+      run: |
+        echo "🔍 Diagnosing repository issues..."
+        
+        # Check missing navigation
+        MISSING_NAV=$(find cerulean-circle-unlimited-2cu -name "*.md" -type f -exec grep -L "📁.*🌐" {} \; | wc -l)
+        echo "missing_nav=$MISSING_NAV" >> $GITHUB_OUTPUT
+        
+        # Check broken symlinks
+        BROKEN_LINKS=$(find . -type l -xtype l 2>/dev/null | wc -l)
+        echo "broken_links=$BROKEN_LINKS" >> $GITHUB_OUTPUT
+        
+        # Check file integrity
+        if [ -d "2cu.atlassian.net" ]; then
+          echo "page_structure=exists" >> $GITHUB_OUTPUT
+        else
+          echo "page_structure=missing" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Setup recovery tools
+      run: |
+        chmod +x maintenance/v2.0/dual-context.sh
+        chmod +x maintenance/v2.0/src/*.sh
+    
+    - name: Attempt auto-recovery
+      if: steps.diagnose.outputs.missing_nav > 0
+      run: |
+        echo "🔧 Running auto-sync to fix missing navigation..."
+        ./maintenance/v2.0/src/auto-sync.sh all
+    
+    - name: Fix broken symlinks
+      if: steps.diagnose.outputs.broken_links > 0
+      run: |
+        echo "🔗 Fixing broken symlinks..."
+        # Remove broken symlinks
+        find . -type l -xtype l -delete
+        
+        # Recreate symlinks for existing files
+        find cerulean-circle-unlimited-2cu -name "*.md" -type f | while read file; do
+          if grep -q "📁.*🌐" "$file"; then
+            PAGE_ID=$(grep -oP '(?<=pages/)\d+' "$file" | head -1)
+            if [ -n "$PAGE_ID" ]; then
+              ./maintenance/v2.0/dual-context.sh migrate "$file" "$PAGE_ID"
+            fi
+          fi
+        done
+    
+    - name: Full structure recovery
+      if: steps.diagnose.outputs.page_structure == 'missing'
+      run: |
+        echo "🏗️ Rebuilding page structure..."
+        # Re-run full migration
+        find cerulean-circle-unlimited-2cu -name "*.md" -type f | while read file; do
+          if grep -q "📁.*🌐" "$file"; then
+            PAGE_ID=$(grep -oP '(?<=pages/)\d+' "$file" | head -1)
+            if [ -n "$PAGE_ID" ]; then
+              ./maintenance/v2.0/dual-context.sh migrate "$file" "$PAGE_ID"
+            fi
+          fi
+        done
+    
+    - name: Validate recovery
+      id: validate
+      run: |
+        echo "✅ Validating recovery..."
+        
+        # Re-run health check
+        MISSING_NAV=$(find cerulean-circle-unlimited-2cu -name "*.md" -type f -exec grep -L "📁.*🌐" {} \; | wc -l)
+        BROKEN_LINKS=$(find . -type l -xtype l 2>/dev/null | wc -l)
+        
+        if [ "$MISSING_NAV" -eq 0 ] && [ "$BROKEN_LINKS" -eq 0 ]; then
+          echo "status=success" >> $GITHUB_OUTPUT
+          echo "✅ Recovery successful!"
+        else
+          echo "status=failed" >> $GITHUB_OUTPUT
+          echo "❌ Recovery failed - manual intervention required"
+          exit 1
+        fi
+    
+    - name: Commit recovery changes
+      if: steps.validate.outputs.status == 'success'
+      run: |
+        git config user.name "GitHub Recovery Bot"
+        git config user.email "recovery@github.com"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes needed"
+        else
+          git commit -m "🔧 Auto-recovery: Fix navigation and symlinks
+          
+          - Fixed ${{ steps.diagnose.outputs.missing_nav }} files with missing navigation
+          - Repaired ${{ steps.diagnose.outputs.broken_links }} broken symlinks
+          - Validated all dual-context structures"
+          git push
+        fi
+    
+    - name: Create recovery report
+      if: always()
+      run: |
+        cat > recovery-report.md << EOF
+        # Recovery Report
+        
+        **Date**: $(date)
+        **Trigger**: ${{ github.event_name }}
+        **Status**: ${{ steps.validate.outputs.status || 'unknown' }}
+        
+        ## Issues Found
+        - Missing navigation: ${{ steps.diagnose.outputs.missing_nav }}
+        - Broken symlinks: ${{ steps.diagnose.outputs.broken_links }}
+        - Page structure: ${{ steps.diagnose.outputs.page_structure }}
+        
+        ## Actions Taken
+        - Auto-sync: ${{ steps.diagnose.outputs.missing_nav > 0 && 'Executed' || 'Skipped' }}
+        - Symlink repair: ${{ steps.diagnose.outputs.broken_links > 0 && 'Executed' || 'Skipped' }}
+        - Structure rebuild: ${{ steps.diagnose.outputs.page_structure == 'missing' && 'Executed' || 'Skipped' }}
+        
+        ## Result
+        Recovery ${{ steps.validate.outputs.status == 'success' && 'succeeded' || 'failed' }}
+        EOF
+    
+    - name: Upload recovery report
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: recovery-report
+        path: recovery-report.md

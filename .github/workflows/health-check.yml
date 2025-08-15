@@ -1,0 +1,79 @@
+name: Repository Health Check
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Allow manual triggers
+  push:
+    branches: [ main ]
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Validate dual-context navigation
+      id: validate
+      run: |
+        echo "🏥 Starting health check..."
+        
+        # Count files
+        HIER_COUNT=$(find cerulean-circle-unlimited-2cu -name "*.md" -type f | wc -l)
+        PAGE_COUNT=$(find 2cu.atlassian.net -name "*.entry.md" -type l 2>/dev/null | wc -l)
+        
+        echo "Hierarchical files: $HIER_COUNT"
+        echo "Page symlinks: $PAGE_COUNT"
+        
+        # Check for navigation headers
+        MISSING_NAV=$(find cerulean-circle-unlimited-2cu -name "*.md" -type f -exec grep -L "📁.*🌐" {} \; | wc -l)
+        echo "Files missing navigation: $MISSING_NAV"
+        
+        # Check for broken symlinks
+        BROKEN_LINKS=$(find . -type l -xtype l 2>/dev/null | wc -l)
+        echo "Broken symlinks: $BROKEN_LINKS"
+        
+        # Set health status
+        if [ "$MISSING_NAV" -gt 0 ] || [ "$BROKEN_LINKS" -gt 0 ]; then
+          echo "health=unhealthy" >> $GITHUB_OUTPUT
+          echo "❌ Health check FAILED"
+          exit 1
+        else
+          echo "health=healthy" >> $GITHUB_OUTPUT
+          echo "✅ Health check PASSED"
+        fi
+    
+    - name: Create health report
+      if: always()
+      run: |
+        cat > health-report.md << EOF
+        # Repository Health Report
+        
+        **Date**: $(date)
+        **Status**: ${{ steps.validate.outputs.health || 'unknown' }}
+        
+        ## Metrics
+        - Total markdown files: $(find . -name "*.md" -type f | wc -l)
+        - Files with navigation: $(find . -name "*.md" -type f -exec grep -l "📁.*🌐" {} \; | wc -l)
+        - Broken symlinks: $(find . -type l -xtype l 2>/dev/null | wc -l)
+        
+        ## Issues
+        $(find cerulean-circle-unlimited-2cu -name "*.md" -type f -exec grep -L "📁.*🌐" {} \; | head -10 | sed 's/^/- /')
+        EOF
+    
+    - name: Upload health report
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: health-report
+        path: health-report.md
+    
+    - name: Trigger recovery if unhealthy
+      if: failure()
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        event-type: health-check-failed
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
