@@ -1,3 +1,5 @@
+[📁 Business Processes](../business-processes.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000054/bp-legal-and-contract-management.md) | [🌐 Page Structure local SymLink](./bp-legal-and-contract-management.page.md)
+
 # BP Legal and Contract Management
 
 All information about managing contracts and other legal concerns regarding customer, employees and partners is described here

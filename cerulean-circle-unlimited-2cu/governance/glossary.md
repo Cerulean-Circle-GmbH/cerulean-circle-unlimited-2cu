@@ -1,3 +1,5 @@
+[📁 Governance](../governance.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000074/glossary.md) | [🌐 Page Structure local SymLink](./glossary.page.md)
+
 # Glossary
 
 A unique definition of terms used in this domain

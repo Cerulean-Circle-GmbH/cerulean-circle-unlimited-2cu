@@ -1,3 +1,5 @@
+[📁 Contracts Discussion](../contracts-discussion.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000025/ccg-vertrge.entry.md) | [🌐 Page Structure local SymLink](./ccg-vertrge.entry.page.md)
+
 # CCG Verträge
 
 - [Frame](./ccg-vertrge/frame.md)

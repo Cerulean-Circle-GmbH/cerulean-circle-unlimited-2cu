@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/300000030/price-list-valid-until-31-dec-2023.md

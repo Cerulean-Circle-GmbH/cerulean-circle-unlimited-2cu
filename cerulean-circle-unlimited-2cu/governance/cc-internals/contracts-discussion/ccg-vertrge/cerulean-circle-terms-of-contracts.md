@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000020/cerulean-circle-terms-of-contracts.md) | [🌐 Page Structure local SymLink](./cerulean-circle-terms-of-contracts.page.md)
+
 # Cerulean Circle Terms of Contracts
 
 1. The WODA Kernel belongs to Cerulean Circle Group and can be used ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)

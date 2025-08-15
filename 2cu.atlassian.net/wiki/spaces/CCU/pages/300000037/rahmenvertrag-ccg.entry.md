@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/governance/cc-internals/contracts-discussion/rahmenvertrag-ccg.md

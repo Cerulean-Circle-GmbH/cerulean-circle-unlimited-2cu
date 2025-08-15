@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000033/suse-offerings-glossary.md) | [🌐 Page Structure local SymLink](./suse-offerings-glossary.page.md)
+
 # Suse Offerings - Glossary
 
 # Glossary

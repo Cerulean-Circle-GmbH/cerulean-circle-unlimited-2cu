@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000027/glossary-ccg.md) | [🌐 Page Structure local SymLink](./glossary-ccg.page.md)
+
 # Glossary CCG
 
 | **Source (1st source)** | **Term** | **Explanation** | **Comment** |

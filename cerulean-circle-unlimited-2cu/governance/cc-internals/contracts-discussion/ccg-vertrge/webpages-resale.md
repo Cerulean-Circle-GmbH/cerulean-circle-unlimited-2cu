@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000034/webpages-resale.md) | [🌐 Page Structure local SymLink](./webpages-resale.page.md)
+
 # webpages-resale
 
 IDEA

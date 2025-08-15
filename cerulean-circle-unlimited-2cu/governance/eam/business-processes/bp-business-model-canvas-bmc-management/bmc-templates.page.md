@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/300000046/bmc-templates.md

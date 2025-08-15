@@ -1,3 +1,5 @@
+[📁 Business Processes](../business-processes.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000053/bp-devops.md) | [🌐 Page Structure local SymLink](./bp-devops.page.md)
+
 # BP DevOps
 
 # Working with GIT and GIT Flow

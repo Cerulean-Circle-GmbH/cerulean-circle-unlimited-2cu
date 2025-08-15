@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000023/en-eula-tobe-dual-license-agreement.md) | [🌐 Page Structure local SymLink](./en-eula-tobe-dual-license-agreement.page.md)
+
 # EN - EULA (tobe DUAL LICENSE AGREEMENT)
 
 > [!INFO]

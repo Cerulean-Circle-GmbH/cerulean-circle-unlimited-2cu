@@ -1,3 +1,5 @@
+[📁 Infrastructure](../infrastructure.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000066/install-windows-developer-laptop.md) | [🌐 Page Structure local SymLink](./install-windows-developer-laptop.page.md)
+
 # Install Windows Developer Laptop
 
 DEPRECATED

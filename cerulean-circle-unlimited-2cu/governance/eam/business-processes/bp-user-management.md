@@ -1,3 +1,5 @@
+[📁 Business Processes](../business-processes.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000055/bp-user-management.md) | [🌐 Page Structure local SymLink](./bp-user-management.page.md)
+
 # BP User Management
 
 # Create a new user

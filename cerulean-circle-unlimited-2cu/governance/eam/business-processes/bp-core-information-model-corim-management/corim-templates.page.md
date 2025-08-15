@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/300000049/corim-templates.md

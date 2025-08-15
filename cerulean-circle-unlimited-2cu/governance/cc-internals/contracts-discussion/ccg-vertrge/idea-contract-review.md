@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000028/idea-contract-review.md) | [🌐 Page Structure local SymLink](./idea-contract-review.page.md)
+
 # Idea contract review
 
 Owncloud

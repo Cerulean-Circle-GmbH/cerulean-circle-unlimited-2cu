@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/governance/cc-internals/contracts-discussion/ccg-vertrge/price-list-valid-until-31-dec-2023.md

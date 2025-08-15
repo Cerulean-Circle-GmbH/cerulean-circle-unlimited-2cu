@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/300000032/subscription-terms-and-conditions-for-ccg-subscription-offerings.md

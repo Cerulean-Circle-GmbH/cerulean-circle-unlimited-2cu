@@ -1,3 +1,5 @@
+[📁 Infrastructure](../infrastructure.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000060/infrastructure-value-stream-overview.entry.md) | [🌐 Page Structure local SymLink](./infrastructure-value-stream-overview.entry.page.md)
+
 # Infrastructure Value Stream Overview
 
 [Asset Übernahme von 2cu: Shift Projects](https://www.mindmeister.com/map/2139080018?t=FTZn6x3flE)

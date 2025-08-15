@@ -1,3 +1,5 @@
+[📁 Contracts Discussion](../contracts-discussion.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000015/agpl.md) | [🌐 Page Structure local SymLink](./agpl.page.md)
+
 # agpl
 
 - [UniDoc-EULA-2020](./agpl/unidoc-eula-2020.md)

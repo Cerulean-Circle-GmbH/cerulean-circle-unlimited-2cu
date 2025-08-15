@@ -1,3 +1,5 @@
+[📁 Bp Core Information Model Corim Management](../bp-core-information-model-corim-management.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000049/corim-templates.md) | [🌐 Page Structure local SymLink](./corim-templates.page.md)
+
 # CorIM - Templates
 
 A collection of reusable templates for CorIMs is collected here.  

@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000030/price-list-valid-until-31-dec-2023.md) | [🌐 Page Structure local SymLink](./price-list-valid-until-31-dec-2023.page.md)
+
 # Price List valid until 31. Dec. 2023
 
 > [!INFO]

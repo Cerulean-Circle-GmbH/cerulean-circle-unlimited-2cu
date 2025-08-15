@@ -1,3 +1,5 @@
+[📁 Bp Agile Workflow Management](../bp-agile-workflow-management.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000045/scrum.entry.md) | [🌐 Page Structure local SymLink](./scrum.entry.page.md)
+
 # Scrum
 
 In order to guarantee scalability and a minim management overhead we use the Large Scale Scrum (LeSS) approach.

@@ -1,3 +1,5 @@
+[📁 Cc Internals](../cc-internals.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000039/frderungen.md) | [🌐 Page Structure local SymLink](./frderungen.page.md)
+
 # Förderungen
 
 - [Fördermittelcheck](#frdermittelcheck)

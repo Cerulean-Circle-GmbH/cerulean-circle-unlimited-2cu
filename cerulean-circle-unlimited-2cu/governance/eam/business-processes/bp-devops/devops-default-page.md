@@ -1,3 +1,5 @@
+[📁 Bp Devops](../bp-devops.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000052/devops-default-page.md) | [🌐 Page Structure local SymLink](./devops-default-page.page.md)
+
 # DevOps Default Page
 
 ## ![(blue star)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/72/1f3d7.png)

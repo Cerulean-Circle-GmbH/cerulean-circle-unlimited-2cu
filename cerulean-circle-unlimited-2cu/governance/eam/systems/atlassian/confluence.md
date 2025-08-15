@@ -1,3 +1,5 @@
+[📁 Atlassian](../atlassian.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000070/confluence.md) | [🌐 Page Structure local SymLink](./confluence.page.md)
+
 # Confluence
 
 - essential Apps

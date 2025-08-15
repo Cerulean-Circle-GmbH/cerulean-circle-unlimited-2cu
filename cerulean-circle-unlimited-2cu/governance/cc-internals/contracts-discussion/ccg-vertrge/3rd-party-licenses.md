@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000018/3rd-party-licenses.md) | [🌐 Page Structure local SymLink](./3rd-party-licenses.page.md)
+
 # 3rd party licenses
 
 - [bootstrap](#bootstrap)

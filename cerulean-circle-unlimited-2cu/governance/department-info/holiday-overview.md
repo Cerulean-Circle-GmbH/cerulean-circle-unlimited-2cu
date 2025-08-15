@@ -1,3 +1,5 @@
+[📁 Department Info](../department-info.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000041/holiday-overview.md) | [🌐 Page Structure local SymLink](./holiday-overview.page.md)
+
 # Holiday Overview
 
 #vacation

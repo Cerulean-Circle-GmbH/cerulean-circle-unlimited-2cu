@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000032/subscription-terms-and-conditions-for-ccg-subscription-offerings.md) | [🌐 Page Structure local SymLink](./subscription-terms-and-conditions-for-ccg-subscription-offerings.page.md)
+
 # Subscription Terms and Conditions  for CCG Subscription Offerings
 
 > [!INFO]

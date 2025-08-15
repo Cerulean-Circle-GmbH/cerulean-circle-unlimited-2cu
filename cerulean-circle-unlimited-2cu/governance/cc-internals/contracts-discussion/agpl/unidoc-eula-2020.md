@@ -1,3 +1,5 @@
+[📁 Agpl](../agpl.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000016/unidoc-eula-2020.md) | [🌐 Page Structure local SymLink](./unidoc-eula-2020.page.md)
+
 # UniDoc-EULA-2020
 
 Effective date: August 15th 2020.

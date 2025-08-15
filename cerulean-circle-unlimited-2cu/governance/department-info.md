@@ -1,3 +1,5 @@
+[📁 Governance](../governance.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000042/department-info.md) | [🌐 Page Structure local SymLink](./department-info.page.md)
+
 # Department Info
 
 - [Current Pitch](../../cerulean-circle-unlimited-2cu/corporate-strategy/current-pitch.md)

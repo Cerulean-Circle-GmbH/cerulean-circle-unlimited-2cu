@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/governance/eam/business-processes/bp-business-model-canvas-bmc-management.md

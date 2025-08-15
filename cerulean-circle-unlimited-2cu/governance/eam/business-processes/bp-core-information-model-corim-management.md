@@ -1,3 +1,5 @@
+[📁 Business Processes](../business-processes.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000050/bp-core-information-model-corim-management.md) | [🌐 Page Structure local SymLink](./bp-core-information-model-corim-management.page.md)
+
 # BP Core Information Model (CorIM) Management
 
 A CorIM is a platform independent functional model (**PIM**) that describes the **Why** and **What** of a product.  

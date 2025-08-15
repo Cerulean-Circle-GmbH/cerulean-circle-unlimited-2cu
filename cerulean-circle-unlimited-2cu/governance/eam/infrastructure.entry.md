@@ -1,3 +1,5 @@
+[📁 Eam](../eam.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000058/infrastructure.entry.md) | [🌐 Page Structure local SymLink](./infrastructure.entry.page.md)
+
 # Infrastructure
 
 - [Infrastructure Value Stream Overview](./infrastructure/infrastructure-value-stream-overview.md)

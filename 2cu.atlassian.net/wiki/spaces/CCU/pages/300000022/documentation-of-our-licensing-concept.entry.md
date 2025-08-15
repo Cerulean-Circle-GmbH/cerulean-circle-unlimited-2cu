@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/governance/cc-internals/contracts-discussion/ccg-vertrge/documentation-of-our-licensing-concept.md

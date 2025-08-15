@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/governance/eam/business-processes/bp-core-information-model-corim-management/corim-how-tos.entry.md

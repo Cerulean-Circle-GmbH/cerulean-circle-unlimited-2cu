@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000022/documentation-of-our-licensing-concept.md) | [🌐 Page Structure local SymLink](./documentation-of-our-licensing-concept.page.md)
+
 # Documentation of our Licensing concept
 
 As an organization that values and contributes to open source software, we understand the importance of maintaining a sustainable and thriving ecosystem for these projects. Our commitment to open source is unwavering, and we believe that the dual license model is one effective way to ensure the continued development and sustainability of the project. This model allows us to offer our software under both an open source license and a commercial license, providing flexibility and choice for users and enabling us to generate revenue to support ongoing development and innovation. We believe that this approach strikes a balance between open source ideals and the practical realities of sustaining a software project, and we remain dedicated to fostering a strong and vibrant open source community.

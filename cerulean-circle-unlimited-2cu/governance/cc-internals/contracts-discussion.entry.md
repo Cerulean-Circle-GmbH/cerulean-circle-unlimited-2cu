@@ -1,3 +1,5 @@
+[📁 Cc Internals](../cc-internals.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000036/contracts-discussion.entry.md) | [🌐 Page Structure local SymLink](./contracts-discussion.entry.page.md)
+
 # Contracts discussion
 
 # Background

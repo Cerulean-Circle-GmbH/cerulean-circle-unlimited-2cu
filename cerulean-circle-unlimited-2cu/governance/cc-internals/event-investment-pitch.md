@@ -1,3 +1,5 @@
+[📁 Cc Internals](../cc-internals.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000038/event-investment-pitch.md) | [🌐 Page Structure local SymLink](./event-investment-pitch.page.md)
+
 # Event: Investment Pitch
 
 - [New Idea](#new-idea)

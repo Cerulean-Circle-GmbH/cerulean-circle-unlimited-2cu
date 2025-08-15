@@ -1,3 +1,5 @@
+[📁 Ccg Vertrge](../ccg-vertrge.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000024/en-legal-datenschutzrichtlinie.md) | [🌐 Page Structure local SymLink](./en-legal-datenschutzrichtlinie.page.md)
+
 # EN - Legal (Datenschutzrichtlinie)
 
 > [!INFO]

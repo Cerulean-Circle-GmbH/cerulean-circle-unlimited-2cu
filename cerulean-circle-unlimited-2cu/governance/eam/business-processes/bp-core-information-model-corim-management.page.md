@@ -1,0 +1,1 @@
+../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/300000050/bp-core-information-model-corim-management.md

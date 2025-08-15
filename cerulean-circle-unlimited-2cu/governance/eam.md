@@ -1,3 +1,5 @@
+[📁 Governance](../governance.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000067/eam.md) | [🌐 Page Structure local SymLink](./eam.page.md)
+
 # EAM
 
 ![](https://api.media.atlassian.com/file/fd6191ed-c009-42b3-b3e2-283db302b0b4/image?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIyNThjNGJmYi1kNmM0LTRiMmQtOGJmYS05MjczZjRmYzQwMGUiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOmZkNjE5MWVkLWMwMDktNDJiMy1iM2UyLTI4M2RiMzAyYjBiNCI6WyJyZWFkIl19LCJleHAiOjE3NTQyOTg3MTEsIm5iZiI6MTc1NDI5NTcxMSwiYWFJZCI6IjU1NzA1ODoyNmZhN2IxMC1jZjQ5LTQ3M2MtODFjMS1mZWU0ZTU3NGE5ZjcifQ.2NyvI7tfC8SQNrWNs1lTgpmZPYsWQeQwrJSoMd7sRkA&client=258c4bfb-d6c4-4b2d-8bfa-9273f4fc400e&name=Picture%201.pdf)

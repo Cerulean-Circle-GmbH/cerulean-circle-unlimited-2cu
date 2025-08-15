@@ -1,0 +1,1 @@
+../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/300000047/bp-business-model-canvas-bmc-management.md

@@ -1,3 +1,5 @@
+[📁 Atlassian](../atlassian.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000069/admin-inital-setup.md) | [🌐 Page Structure local SymLink](./admin-inital-setup.page.md)
+
 # Admin Inital Setup
 
 ![](./attachments/image-20200427-093740.png)

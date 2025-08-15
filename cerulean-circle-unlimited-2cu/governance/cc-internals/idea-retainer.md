@@ -1,3 +1,5 @@
+[📁 Cc Internals](../cc-internals.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000040/idea-retainer.md) | [🌐 Page Structure local SymLink](./idea-retainer.page.md)
+
 # IDEA retainer
 
 ![](https://api.media.atlassian.com/file/1e4c65c4-7184-47b0-8a21-25873274d51b/image?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIyNThjNGJmYi1kNmM0LTRiMmQtOGJmYS05MjczZjRmYzQwMGUiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOjFlNGM2NWM0LTcxODQtNDdiMC04YTIxLTI1ODczMjc0ZDUxYiI6WyJyZWFkIl19LCJleHAiOjE3NTQyOTg3MTIsIm5iZiI6MTc1NDI5NTcxMiwiYWFJZCI6IjU1NzA1ODoyNmZhN2IxMC1jZjQ5LTQ3M2MtODFjMS1mZWU0ZTU3NGE5ZjcifQ.gSkrvGkUjbeYs0ZDKjrNMDwmzaZ79foFVWUn2z_qUew&client=258c4bfb-d6c4-4b2d-8bfa-9273f4fc400e&name=IDEA_Cerulean_Planning%20Track_2023.pdf)
