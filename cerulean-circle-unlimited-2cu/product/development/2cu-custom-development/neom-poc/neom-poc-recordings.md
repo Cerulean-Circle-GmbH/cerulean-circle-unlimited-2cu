@@ -6,11 +6,11 @@
 
 1. Recordings overview (**Bitte Video Links ergänzen, wenn eins fehlen sollte**)
   1. 17.01.2023
-    1. **Once installation** ([https://drive.google.com/file/d/1YBeDGa6uw5FseJoW3vZigLqz0Kgp3avb/view](https://drive.google.com/file/d/1YBeDGa6uw5FseJoW3vZigLqz0Kgp3avb/view)) (Textmitschreibungen [2023-01-17 Meeting Minutes](./2cu.atlassian.net/wiki/spaces/CCU/pages/1854504961/2023-01-17_Meeting_Minutes.md))
-    2. **Woda Training** ([https://drive.google.com/file/d/1uqOgndpXP\_FKQPNjuWrWiLsW1REYSmBo/view](https://drive.google.com/file/d/1uqOgndpXP_FKQPNjuWrWiLsW1REYSmBo/view)) (Textmitschreibungen [2023-01-17 Meeting Minutes](./2cu.atlassian.net/wiki/spaces/CCU/pages/1854504961/2023-01-17_Meeting_Minutes.md))
+    1. **Once installation** ([https://drive.google.com/file/d/1YBeDGa6uw5FseJoW3vZigLqz0Kgp3avb/view](https://drive.google.com/file/d/1YBeDGa6uw5FseJoW3vZigLqz0Kgp3avb/view)) (Textmitschreibungen [2023-01-17 Meeting Minutes](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1854504961/2023-01-17_Meeting_Minutes.md))
+    2. **Woda Training** ([https://drive.google.com/file/d/1uqOgndpXP\_FKQPNjuWrWiLsW1REYSmBo/view](https://drive.google.com/file/d/1uqOgndpXP_FKQPNjuWrWiLsW1REYSmBo/view)) (Textmitschreibungen [2023-01-17 Meeting Minutes](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1854504961/2023-01-17_Meeting_Minutes.md))
   2. 18.01.2023
     1. [Woda.prod](https://prod.wo-da.de/) / [Once 2.3.2 test](https://test.wo-da.de/EAMD.ucp/Components/tla/EAM/layer1/Thinglish/Once/2.3.2/src/html/Once.html) (Video: [https://drive.google.com/file/d/17GNmOzzD6vgmuokpwXXBGmWUnXEP2XPD/view](https://drive.google.com/file/d/17GNmOzzD6vgmuokpwXXBGmWUnXEP2XPD/view))
-      1. Instructions sinf auch [2023-01-18 NEOM PoC Meeting Minutes](./2cu.atlassian.net/wiki/spaces/CCU/pages/1855782913/2023-01-18_NEOM_PoC_Meeting_Minutes.md) zu finden
+      1. Instructions sinf auch [2023-01-18 NEOM PoC Meeting Minutes](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1855782913/2023-01-18_NEOM_PoC_Meeting_Minutes.md) zu finden
     2. Im DevOps Stream gab es eine Session wie man oosh fixed ([video](https://drive.google.com/file/d/1doHzyWULx2jHkUmhqROnfmdSKLwS6Eqw/view?usp=share_link))
   3. 19.01.2023
     1. [Developer Hands-On (2023-01-18 14:01 GMT+1)](https://drive.google.com/file/d/17GNmOzzD6vgmuokpwXXBGmWUnXEP2XPD/view)

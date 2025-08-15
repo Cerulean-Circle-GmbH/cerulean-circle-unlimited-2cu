@@ -69,7 +69,7 @@ Design Video:
 ![Video not showing... Error...](./attachments/SNET-Figma-Design-Overview-01.mp4)
 
   
-[Figma Desktop Preview](./2cu.atlassian.net/wiki/spaces/CCU/pages/575340560/Shifter_Netzwerk.md)  
+[Figma Desktop Preview](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/575340560/Shifter_Netzwerk.md)  
 [Figma Mobile Preview](https://www.figma.com/file/wJyh9tIUpPpqSbqLVgwinT/Shifter-Netzwerk-Proto?node-id=773%3A1131)
 
 [Figma combined Document](https://www.figma.com/file/wJyh9tIUpPpqSbqLVgwinT/Shifter-Netzwerk-Proto)
