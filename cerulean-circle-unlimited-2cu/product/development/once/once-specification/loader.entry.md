@@ -1,4 +1,4 @@
-[📁 ONCE Specification](../once-specification.entry.md) | [🌐 Page Structure](/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/main/2cu.atlassian.net/wiki/spaces/CCU/pages/)
+[📁 ONCE Specification](../once-specification.entry.md) | [🌐 Page Structure](/cerulean-circle-unlimited-2cu/blob/main/2cu.atlassian.net/wiki/spaces/CCU/pages/)
 
 # Loader
 
@@ -25,7 +25,7 @@ WHAT A MESS!
 
 # What needs to be done
 
-A simple dynamic Loader system for real Components like in the [Units - Components - Packages](/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/main/2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md) in short [UCP](../../../development/coast/eamducp-repository/ucp.md) standard.  
+A simple dynamic Loader system for real Components like in the [Units - Components - Packages](/cerulean-circle-unlimited-2cu/blob/main/2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md) in short [UCP](../../../development/coast/eamducp-repository/ucp.md) standard.  
 In optimal fully extensible for all the old legacy ways as dedicated Loader implementations.
 
 # How
