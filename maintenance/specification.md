@@ -27,7 +27,28 @@ Every content page exists in TWO contexts with seamless navigation between them:
 ```
 🌐 Hierarchical Structure ←→ Page Structure 🌐
    (Repository organized)    (Atlassian mirrored)
+                ↕
+         📋 Repository Index 
+         (index.md aggregation)
 ```
+
+### **Repository Index Integration**
+The **`index.md`** file serves as the central navigation hub that aggregates all content across both contexts:
+
+**Location:** `/index.md` (repository root)  
+**Purpose:** Single-source directory of all topics with links to hierarchical structure  
+**Link Format:** Points to hierarchical structure files (not page structure)
+
+**Example Index Entry:**
+```markdown
+- [UCP](./cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/UCP.md)
+```
+
+**Index.md Interactions:**
+- **Repository Navigation**: Provides comprehensive topic discovery
+- **Hierarchical Links**: All index links point to hierarchical structure (source of truth)
+- **Cross-Reference Updates**: Must be updated when topics are added/moved/renamed
+- **Search and Discovery**: Enables full-text search across repository structure
 
 ### **File Naming Convention**
 
@@ -100,9 +121,12 @@ Every content page exists in TWO contexts with seamless navigation between them:
 
 #### **✅ Cross-Reference Updates**
 - [ ] Parent topic links updated to point to new navigation structure
-- [ ] Index files updated to include both contexts
 - [ ] Related topics updated to maintain consistency
-- [ ] Repository index.md updated if applicable
+- [ ] **Repository index.md updated with hierarchical link**
+  - [ ] Add/update entry: `[TOPIC](./cerulean-circle-unlimited-2cu/{domain}/{path}/{TOPIC}.md)`
+  - [ ] Verify link points to hierarchical structure (not page structure)
+  - [ ] Maintain alphabetical/categorical organization
+  - [ ] Test link functionality in GitHub interface
 
 #### **✅ Testing & Validation**
 - [ ] All links functional in GitHub web interface
