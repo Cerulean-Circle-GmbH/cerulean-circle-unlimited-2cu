@@ -1,82 +1,92 @@
-# Loader
+# UCP
 
-# Why
+The most simple and precise definition of a what is a componenten and what not:
 
-Module Systems in JavaScript:
+TL;NR:  
+To be titled as a **Component** a unit has to fulfill 4 qualities:
 
-- CommonJS
-- AMD modules
-- Bower require
-- nodejs require  
-npm packages and node\_modules
-- import / export statement  
-[https://hacks.mozilla.org/2015/08/es6-in-depth-modules/](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/)  
-main problem: extremely static for a dynamic language
-- JavaScript Loader in some distant future  
-[https://github.com/whatwg/loader](https://github.com/whatwg/loader)
-- webPack  
-get a fast loading license cocktail codemess
-- Babel  
-fix the hundreds of syntax shit with another hundred alternatives
+1. It is self contained.
+2. It is a Blackbox.
+3. It exposes an interface.
+4. It provides a machine readable self description through it's interface.
 
-WHAT A MESS!
+Everything that is **not** fulfilling **all 4** qualities is only a **Unit**.
 
-# What needs to be done
+A **Package** is itself a Component, so fulfills all 4 qualities, but only **contains Components**.
 
-A simple dynamic Loader system for real Components like in the [UCP](../../../development/coast/eamducp-repository/ucp.md) standard.  
-In optimal fully extensible for all the old legacy ways as dedicated Loader implementations.
+This is a fractal definition of **Units**, **Components** and **Packages**, short **UCP**.
 
-# How
+Some more Details: a **Component** needs to be a:
 
-Loaders rely on the IOR principles: Internet Object references which can be loaded form a simple reference string.
+1. It is self contained.  
+So it is is a unit, one single thing. The descriptor is not in a separate location like a windows registry or a Linux etc…
+2. It is a Blackbox.  
+So you do not need to know anything about what is inside to use it. Normally a component contains more units, that do not fulfill the component qualities alone but fulfill at least one aspect, e.g. the interface declaration or the implementation definition.
+3. It exposes an interface.  
+The typed interface semantic specifies the possible interactions with the Blackbox.
+4. It provides a machine readable self description through it's interface.  
+So any environment can find out what the component is about, how to display it, install, start, stop, delete it. An optimal implementation describes the complete lifecycle of a component independently from its environment.
 
-```
-const ref = new IOR().init("ior:did:rest:SomeType/someID123abc")
-let instance = await ref.load();
+## Reference Implementation for Web 4.0
 
-// or even better
-let value = ref.someInstanceAttribute;
-// which could work if IOR is even a ES6 Proxy
-```
+The [EAMD.ucp Repository](../eamducp-repository.md) is the place to lookup UCP components. The ONCE kernel will manage the lifecycle of the UCP components.
 
-The Loader Interface then deeds to have a possibility to discover the right classes to process the different types of IORs and find out which IOR is using which technology stack to communicate to the server that is hosting the object.
+## Comparison and Discussion of Implementations
 
-## Review with Bene
+Early Implementations where available e.g. in Delphi VCL (Visual Component Library) and JavaBeans like SWING which where a respecification of the VCL specification. The Java Jar file fullfils the UCP definition with the availability of a meta.inf descriptor and an implemented BeanDescriptor. Both implementations comply the quality #2 by guaranteeing an empty constructor, so that instances could be created via a simple Drag and Drop action.
 
-1. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- InstanceStore does not really make use of Store
-2. ![(error)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/error.png)
- InstanceStore key is only an arrays index (:5263)  
-but should be the origin? but origin should be fixed too (see 5.)  
-BE: Can be every thing. But is not used for query.
-3. ![(error)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/error.png)
- fix all instanceStore.register(0, with instanceStore.register(ior.origin,  
-Only one Instance exists. This is correct.
-4. ![(blue star)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/72/2753.png)
- fix InstanceStore lookup and discover correspondingly
-5. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- DocumentScriptLoader does not store script: fixed
-6. DocumentScriptLoader check for less and css…or better an own lodder since it does not create a script tag on css but a link tag
-7. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- IOR normalizeHref should add document.location.origin if origin is empty (:4752)  
-BE: Url Object adds now on import the orinig, Protocoll and Port in case no origin is found in the String.
-8. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- EAMDucpLoader should not store urlString but ior.normalizeHref
-9. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- tidy up URL, Url, urlString, urlObject, href, normalizeHref,….  
-especially on RESTClient  
-BE: Have to create a Page about that![](./attachments/grafik-20210511-074742.png)
-10. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- HTMLScriptClient.instanceStore.getInstanceInit();  
-better? HTMLScriptClient.factory(); as part of the interface?
-11. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- killed declarationListPerScript in DocumentScriptLoader (:4807): fixed
-12. ![(tick)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/check.png)
- DefaultHTTPClient  
-this.type.class.instanceStore.register(this);  
-should be  
-this.type.class.instanceStore.register(urlString, this);  
-or better  
-this.type.class.instanceStore.register(ior.origin, this);  
-BE: Correct is this.type.class.instanceStore.register(this.id, this);  
-The reason is, thas the key is not used to find the correct instance. The Method canConnect is used to find the right instance.
+Though the OSGi standard came close to completely fulfilling the UCP definition and even adding important service oriented concepts, they basically failed in quality #2 since most of the bundles require multiple parameters on the construction via constructed or factory patterns. Thus you need to know the configuration and parameters that are required to create an instance.
+
+Most of the existing component frameworks predate the time of a general WWW in the sense of Timothy John Berners-Lee, yet he did not have the vision of UCP Components not even object orientation but was rather imprinted procedural. Only with the later upcoming JavaScript the Web itself became rather functional from its root paradigm. Though it would be easily possible to implement UCP also in this paradigm it arose from the object oriented school of Alan Kay and Anders Heijlsberg, rather than from Haskell Curry.
+
+But only later than the birth of the WWW the OO school tried the Hercules task to consolidate all technologies and protocols into one ubiquitous vision within the OMG (not "Oh my God", but rather Object Management Group) into CORBA, the CCM (CORBA 3.0 COMPONENT MODEL) and finally came true with UML 2, MDA, SOA and finally TLA.
+
+As the complexity of reality was much too scary for newbie developers and the OMG still was to much imprinted by C/C++ only Java 2 Enterprises Edition (J2EE) ever implement a successful massively simplified version of the CCM as the so called JEE Application Server with Enterprises JavaBeans as the Components and multiple similar Package implementations like JAR, EAR, WAR.
+
+The WAR package was the first ever drag & drop installable Package on the WEB with Apache Tomcat, but as SUN failed and got prey for Oracle, Java did not deliver to their promise "write once, run anywhere" anymore… and especially their WebStart Apps never lifted off.
+
+The revival of Apps was done by a pupil of Alan Key as he learned about OO and UCP at Xerox Park and made it finally in 2007 to bring a breakthrough device onto the market, that fulfilled UCP with iOS Apps on iTunes, the Apple iPhone store based on the work of Next.
+
+As the success of OSGi whipped out all proprietary JEE composition frameworks of the different vendors during 2000-2015, and the Eclipse Modeling Framework (EMF) became the standard MDA reference implementation we are left over wit the most mature implementations in a broken nonsupportif legacy environment where an Oracle has to tell us about our future. Even the open source OpenJDK only gives a finte distant silver glow of hope to leverage our heritance into a bright future. When even our Gang of 4 superhero Eric Gamma left the drowning ship and hired with the organization hosting the originator Anders Heijlsberg as the chief architect of Visual Studio Code.
+
+The incredible rise of such a phoenix like Visual Studio Code brings a new area to the table, the PWA…accepted by GAFAM as THE App standard with which we finally move to Steve Jobs (RIP) Vision of the Universal (Next) App.
+
+Still we are about to reinvent all XML schema and XMI achievements now in another Hercules task into JSON schema with an open outcome just to satisfy our newbie developers needs for simplicity into a foggy future of reinventing wheels…
+
+None of the Component frameworks ever other than JEE specified their descriptors ever in XML, the first and the last fully bootstraped language defined in itself by XSD and thus fully machine readable and verifyable.
+
+This is where the "Avengers assemble" and bring together the best of the best inventions ever to save the world with Web 4.0 on the reference implementation of The Last Architecture (TLA) with ONCE and WODA.
+
+Where ONCE is the Object Network Communication Engine that is creating an environment where you "Write ONCE, Deploy anywhere" independently of vendors, programming languages and other egos to finally deliver "The Internet of Services" that makes the "Internet of Things" a holistic place to grow throughout the universe with an Interplanetary File System… to bring myData under myControl in a big Supernova of the WWW…
+
+TBC…
+
+## History
+
+The UCP Component standard goes back to the united states command and control system [2c.com.](http://2c.com)  
+
+> WIKI  
+> [Component-based software engineering](https://en.wikipedia.org/wiki/Component-based_software_engineering)
+> 
+> The idea that [software](https://en.wikipedia.org/wiki/Software) should be componentized - built from prefabricated *components* - first became prominent with [Douglas McIlroy](https://en.wikipedia.org/wiki/Douglas_McIlroy)'s address at the [NATO](https://en.wikipedia.org/wiki/NATO) conference on [software engineering](https://en.wikipedia.org/wiki/Software_engineering) in [Garmisch](https://en.wikipedia.org/wiki/Garmisch-Partenkirchen), [Germany](https://en.wikipedia.org/wiki/Germany), 1968, titled *Mass Produced Software Components*.[\[3\]](https://en.wikipedia.org/wiki/Component-based_software_engineering#cite_note-3) The conference set out to counter the so-called [software crisis](https://en.wikipedia.org/wiki/Software_crisis). McIlroy's subsequent inclusion of [pipes and filters](https://en.wikipedia.org/wiki/Pipeline_(Unix)) into the [Unix](https://en.wikipedia.org/wiki/Unix) [operating system](https://en.wikipedia.org/wiki/Operating_system) was the first implementation of an infrastructure for this idea.
+> 
+> Source:  
+> McIlroy, Malcolm Douglas (January 1969). ["Mass produced software components"](http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF)(PDF). *Software Engineering: Report of a conference sponsored by the NATO Science Committee, Garmisch, Germany, 7-11 Oct. 1968*. Scientific Affairs Division, NATO. p. 79.
+
+![](./attachments/image-20200725-103421.png)
+
+[What is UCP](http://box.CeruleanCircle.com/CeruleanCircle): [http://box.CeruleanCircle.com/CeruleanCircle GmbH/Productmanagement/EAMD.ucp/What is UCP.pptx](http://box.CeruleanCircle.com/CeruleanCircle%20GmbH/Productmanagement/EAMD.ucp/What%20is%20UCP.pptx)
+
+Nice sources
+
+[**wiki.c2.com**](http://wiki.c2.com) [**c2.com**](http://c2.com)
+
+[https://wiki.c2.com/?ComponentDefinition](https://wiki.c2.com/?ComponentDefinition)
+
+[http://wiki.c2.com/?ComponentOrientedProgrammingLanguage](http://wiki.c2.com/?ComponentOrientedProgrammingLanguage)
+
+[http://congress.cimne.upc.es/cfsi/frontal/doc/ppt/11.pdf](http://congress.cimne.upc.es/cfsi/frontal/doc/ppt/11.pdf)
+
+[https://c4model.com/](https://c4model.com/)
+
+[https://www.infoq.com/articles/C4-architecture-model/](https://www.infoq.com/articles/C4-architecture-model/)

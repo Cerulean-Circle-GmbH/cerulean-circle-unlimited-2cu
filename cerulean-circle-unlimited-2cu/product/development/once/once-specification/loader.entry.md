@@ -1,3 +1,5 @@
+[📁 ONCE Specification](../once-specification.entry.md) | [🌐 Page Structure](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/)
+
 # Loader
 
 # Why
