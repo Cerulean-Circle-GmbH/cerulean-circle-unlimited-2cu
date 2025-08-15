@@ -1,3 +1,5 @@
+[📁 Deloitte](../deloitte.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000120/rahmenbedingungen-woda-usecases.md) | [🌐 Page Structure local SymLink](./rahmenbedingungen-woda-usecases.page.md)
+
 # Rahmenbedingungen WODA UseCases
 
 - Technisch

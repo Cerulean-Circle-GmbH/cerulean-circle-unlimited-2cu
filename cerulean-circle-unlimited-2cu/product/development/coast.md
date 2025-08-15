@@ -1,3 +1,5 @@
+[📁 Development](../development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000056/coast.md) | [🌐 Page Structure local SymLink](./coast.page.md)
+
 # COAST
 
 > [!NOTE]

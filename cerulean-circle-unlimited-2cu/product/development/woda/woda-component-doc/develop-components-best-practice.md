@@ -1,3 +1,5 @@
+[📁 Woda Component Doc](../woda-component-doc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000091/develop-components-best-practice.md) | [🌐 Page Structure local SymLink](./develop-components-best-practice.page.md)
+
 # Develop Components best practice
 
 - [The good and the bad way](#the-good-and-the-bad-way)

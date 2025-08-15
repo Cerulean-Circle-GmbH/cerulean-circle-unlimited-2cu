@@ -1,3 +1,5 @@
+[📁 Corporate Strategy](../corporate-strategy.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/600000004/swot-risks.md) | [🌐 Page Structure local SymLink](./swot-risks.page.md)
+
 # SWOT & Risks
 
 SWOT stands for **S**trengths, **W**eaknesses, **O**pportunities, and **T**hreats. Use this template to think about your business and competition from a fresh perspective. SWOT analysis helps you assess strengths and weaknesses, and how you can leverage those qualities to respond to market opportunities and threats.

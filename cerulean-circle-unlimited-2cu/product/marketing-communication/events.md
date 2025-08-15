@@ -1,3 +1,5 @@
+[📁 Marketing Communication](../marketing-communication.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000112/events.md) | [🌐 Page Structure local SymLink](./events.page.md)
+
 # Events
 
 ## Bits & Pretzels

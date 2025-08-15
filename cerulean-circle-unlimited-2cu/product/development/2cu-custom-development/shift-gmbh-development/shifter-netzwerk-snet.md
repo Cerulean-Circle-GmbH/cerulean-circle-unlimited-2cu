@@ -1,3 +1,5 @@
+[📁 Shift Gmbh Development](../shift-gmbh-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000054/shifter-netzwerk-snet.md) | [🌐 Page Structure local SymLink](./shifter-netzwerk-snet.page.md)
+
 # Shifter Netzwerk (SNET)
 
 ## The Aim of the System:

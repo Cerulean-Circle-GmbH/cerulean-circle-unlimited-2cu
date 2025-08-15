@@ -1,3 +1,5 @@
+[📁 Max Planck Gesellschaft Mpg](../max-planck-gesellschaft-mpg.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000005/meeting-notes.md) | [🌐 Page Structure local SymLink](./meeting-notes.page.md)
+
 # Meeting notes
 
 Create meeting note

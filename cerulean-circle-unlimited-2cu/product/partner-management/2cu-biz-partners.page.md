@@ -1,0 +1,1 @@
+../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000116/2cu-biz-partners.md

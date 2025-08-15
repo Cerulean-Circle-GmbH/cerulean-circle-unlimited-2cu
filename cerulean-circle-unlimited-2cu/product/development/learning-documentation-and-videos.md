@@ -1,3 +1,5 @@
+[📁 Development](../development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000063/learning-documentation-and-videos.md) | [🌐 Page Structure local SymLink](./learning-documentation-and-videos.page.md)
+
 # Learning Documentation and Videos
 
 - [Documentations](#documentations)

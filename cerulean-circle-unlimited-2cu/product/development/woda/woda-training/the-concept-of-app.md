@@ -1,3 +1,5 @@
+[📁 Woda Training](../woda-training.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000111/the-concept-of-app.md) | [🌐 Page Structure local SymLink](./the-concept-of-app.page.md)
+
 # The Concept of App
 
 - [What is an App](#what-is-an-app)

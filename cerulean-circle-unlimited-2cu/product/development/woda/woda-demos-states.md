@@ -1,3 +1,5 @@
+[📁 Woda](../woda.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000103/woda-demos-states.md) | [🌐 Page Structure local SymLink](./woda-demos-states.page.md)
+
 # WODA Demos states
 
 ## Demos per Version:

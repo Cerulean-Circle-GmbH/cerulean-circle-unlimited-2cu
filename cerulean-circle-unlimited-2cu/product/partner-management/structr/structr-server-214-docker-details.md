@@ -1,3 +1,5 @@
+[📁 Structr](../structr.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000130/structr-server-214-docker-details.md) | [🌐 Page Structure local SymLink](./structr-server-214-docker-details.page.md)
+
 # Structr Server 2.1.4 Docker Details
 
 Docker File Location

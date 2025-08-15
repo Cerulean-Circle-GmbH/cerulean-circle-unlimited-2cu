@@ -1,3 +1,5 @@
+[📁 Deloitte Development](../deloitte-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000004/use-cases-4-deloitte.md) | [🌐 Page Structure local SymLink](./use-cases-4-deloitte.page.md)
+
 # Use Cases 4 Deloitte
 
 1. Restaurant Covid-19 Table Scanner (viral marketing)

@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000078/install-woda-development-environment-using-woda2023-docker-image.md

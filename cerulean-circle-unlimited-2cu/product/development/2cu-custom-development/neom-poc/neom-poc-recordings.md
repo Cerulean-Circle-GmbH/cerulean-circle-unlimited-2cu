@@ -1,3 +1,5 @@
+[📁 Neom Poc](../neom-poc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000018/neom-poc-recordings.md) | [🌐 Page Structure local SymLink](./neom-poc-recordings.page.md)
+
 # NEOM PoC Recordings
 
 [https://drive.google.com/drive/folders/1Pr9ID1Ba5KRXEUrkkEjKphiJImxRgZWp?usp=share\_link](https://drive.google.com/drive/folders/1Pr9ID1Ba5KRXEUrkkEjKphiJImxRgZWp?usp=share_link)

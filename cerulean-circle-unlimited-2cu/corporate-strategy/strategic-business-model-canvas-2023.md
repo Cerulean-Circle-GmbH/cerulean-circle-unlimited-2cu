@@ -1,3 +1,5 @@
+[📁 Corporate Strategy](../corporate-strategy.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/600000003/strategic-business-model-canvas-2023.md) | [🌐 Page Structure local SymLink](./strategic-business-model-canvas-2023.page.md)
+
 # Strategic Business Model Canvas 2023
 
 2023

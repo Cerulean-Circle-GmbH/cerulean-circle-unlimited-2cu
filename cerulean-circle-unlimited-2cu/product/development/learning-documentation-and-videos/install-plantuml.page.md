@@ -1,0 +1,1 @@
+../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000062/install-plantuml.md

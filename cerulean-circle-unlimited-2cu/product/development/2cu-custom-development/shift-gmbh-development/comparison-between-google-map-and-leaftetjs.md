@@ -1,3 +1,5 @@
+[📁 Shift Gmbh Development](../shift-gmbh-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000046/comparison-between-google-map-and-leaftetjs.md) | [🌐 Page Structure local SymLink](./comparison-between-google-map-and-leaftetjs.page.md)
+
 # Comparison between google map and leaftetjs
 
 It’s no news for anyone who has Google Maps running on their websites that Google started charging for using their API. We saw it coming when, back in 2016, they started requiring a key to add a map using their JavaScript API. And on June 11, 2018, they did a major upgrade to their API and billing system.

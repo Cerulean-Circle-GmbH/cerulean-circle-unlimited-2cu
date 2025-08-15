@@ -1,3 +1,5 @@
+[📁 Partner Management](../partner-management.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000129/structr.md) | [🌐 Page Structure local SymLink](./structr.page.md)
+
 # Structr
 
 |     |     |

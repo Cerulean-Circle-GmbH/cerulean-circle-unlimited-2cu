@@ -1,3 +1,5 @@
+[📁 Cerulean Circle Unlimited 2cu](../cerulean-circle-unlimited-2cu.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/700000002/customer.md) | [🌐 Page Structure local SymLink](./customer.page.md)
+
 # Customer
 
 > [!NOTE]

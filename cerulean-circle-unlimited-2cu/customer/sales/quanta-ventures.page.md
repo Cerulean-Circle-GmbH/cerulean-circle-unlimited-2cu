@@ -1,0 +1,1 @@
+../../../2cu.atlassian.net/wiki/spaces/CCU/pages/500000031/quanta-ventures.md

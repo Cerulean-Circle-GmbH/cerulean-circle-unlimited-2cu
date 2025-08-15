@@ -1,3 +1,5 @@
+[📁 Mep Metaverse Main](../mep-metaverse-main.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000022/depricated-cerulean-circle-mep-proposal.md) | [🌐 Page Structure local SymLink](./depricated-cerulean-circle-mep-proposal.page.md)
+
 # Depricated: Cerulean Circle MEP Proposal
 
 - [open questions](#open-questions)

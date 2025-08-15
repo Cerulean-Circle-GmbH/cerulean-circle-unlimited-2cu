@@ -1,3 +1,5 @@
+[📁 Sales](../sales.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000032/rair.md) | [🌐 Page Structure local SymLink](./rair.page.md)
+
 # RAIR
 
 ## Intent:

@@ -1,0 +1,1 @@
+../../../2cu.atlassian.net/wiki/spaces/CCU/pages/500000035/shift-phone.md

@@ -1,3 +1,5 @@
+[📁 Max Planck Gesellschaft Mpg](../max-planck-gesellschaft-mpg.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000006/mpg-intro-session-20210114.md) | [🌐 Page Structure local SymLink](./mpg-intro-session-20210114.page.md)
+
 # MPG Intro Session - 20210114
 
 ## Guests

@@ -1,3 +1,5 @@
+[📁 Q Nnect](../q-nnect.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000125/new-domain.md) | [🌐 Page Structure local SymLink](./new-domain.page.md)
+
 # New Domain
 
 stable Branch:

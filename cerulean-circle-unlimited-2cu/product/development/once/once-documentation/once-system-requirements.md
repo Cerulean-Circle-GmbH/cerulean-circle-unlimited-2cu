@@ -1,3 +1,5 @@
+[📁 Once Documentation](../once-documentation.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000073/once-system-requirements.md) | [🌐 Page Structure local SymLink](./once-system-requirements.page.md)
+
 # Once System requirements
 
 # What is required to run ONCE / WODA on an own server

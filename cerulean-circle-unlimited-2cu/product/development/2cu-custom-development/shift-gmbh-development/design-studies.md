@@ -1,3 +1,5 @@
+[📁 Shift Gmbh Development](../shift-gmbh-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000051/design-studies.md) | [🌐 Page Structure local SymLink](./design-studies.page.md)
+
 # Design Studies
 
 - CSS  

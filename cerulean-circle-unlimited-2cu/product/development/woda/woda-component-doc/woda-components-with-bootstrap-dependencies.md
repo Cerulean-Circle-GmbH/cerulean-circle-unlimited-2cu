@@ -1,3 +1,5 @@
+[📁 Woda Component Doc](../woda-component-doc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000102/woda-components-with-bootstrap-dependencies.md) | [🌐 Page Structure local SymLink](./woda-components-with-bootstrap-dependencies.page.md)
+
 # WODA Components with Bootstrap dependencies
 
 ## WODA 2.3.2

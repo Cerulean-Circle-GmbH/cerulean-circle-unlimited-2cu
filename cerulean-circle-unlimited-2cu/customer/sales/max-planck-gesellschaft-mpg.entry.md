@@ -1,3 +1,5 @@
+[📁 Sales](../sales.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000004/max-planck-gesellschaft-mpg.entry.md) | [🌐 Page Structure local SymLink](./max-planck-gesellschaft-mpg.entry.page.md)
+
 # Max Planck Gesellschaft (MPG)
 
 ## Intent

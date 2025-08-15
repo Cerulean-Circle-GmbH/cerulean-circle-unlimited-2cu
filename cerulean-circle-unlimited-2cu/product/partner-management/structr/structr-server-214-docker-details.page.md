@@ -1,0 +1,1 @@
+../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000130/structr-server-214-docker-details.md

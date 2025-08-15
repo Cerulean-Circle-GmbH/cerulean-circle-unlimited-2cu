@@ -1,3 +1,5 @@
+[📁 2cu Custom Development](../2cu-custom-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000052/shift-gmbh-development.entry.md) | [🌐 Page Structure local SymLink](./shift-gmbh-development.entry.page.md)
+
 # Shift GmbH Development
 
 ### Company Information:

@@ -1,3 +1,5 @@
+[📁 Once Install Guide](../once-install-guide.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000077/install-oosh-and-woda.md) | [🌐 Page Structure local SymLink](./install-oosh-and-woda.page.md)
+
 # Install oosh and WODA
 
 Open Page: [https://github.com/Cerulean-Circle-GmbH/once.sh](https://github.com/Cerulean-Circle-GmbH/once.sh)

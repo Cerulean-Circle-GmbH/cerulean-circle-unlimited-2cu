@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/product/partner-management/q-nnect/q-nnect-education.md

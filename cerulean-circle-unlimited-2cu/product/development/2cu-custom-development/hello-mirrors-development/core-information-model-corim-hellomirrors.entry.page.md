@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000007/core-information-model-corim-hellomirrors.entry.md

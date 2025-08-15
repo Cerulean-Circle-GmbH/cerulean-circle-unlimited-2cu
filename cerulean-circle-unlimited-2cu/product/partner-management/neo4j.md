@@ -1,3 +1,5 @@
+[📁 Partner Management](../partner-management.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000123/neo4j.md) | [🌐 Page Structure local SymLink](./neo4j.page.md)
+
 # Neo4J
 
 |     |     |

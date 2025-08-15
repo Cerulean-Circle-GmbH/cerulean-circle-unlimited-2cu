@@ -1,3 +1,5 @@
+[📁 Rair Development](../rair-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000031/rair-local-installation.md) | [🌐 Page Structure local SymLink](./rair-local-installation.page.md)
+
 # RAIR local installation
 
 - *Once finished, this will install the current stable version of RAIR.*

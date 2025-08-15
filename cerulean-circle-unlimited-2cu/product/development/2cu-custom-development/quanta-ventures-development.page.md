@@ -1,0 +1,1 @@
+../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000022/quanta-ventures-development.md

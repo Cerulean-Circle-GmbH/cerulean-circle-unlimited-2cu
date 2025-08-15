@@ -1,3 +1,5 @@
+[📁 Mep Metaverse Main](../mep-metaverse-main.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000026/mep-proposal.md) | [🌐 Page Structure local SymLink](./mep-proposal.page.md)
+
 # MEP Proposal
 
 > [!WARNING]

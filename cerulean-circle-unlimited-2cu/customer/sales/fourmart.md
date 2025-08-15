@@ -1,3 +1,5 @@
+[📁 Sales](../sales.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000002/fourmart.md) | [🌐 Page Structure local SymLink](./fourmart.page.md)
+
 # Fourmart
 
 ## Intent

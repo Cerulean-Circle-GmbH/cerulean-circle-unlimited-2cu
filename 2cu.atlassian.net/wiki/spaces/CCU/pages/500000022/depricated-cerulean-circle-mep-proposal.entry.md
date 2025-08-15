@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/customer/sales/mep-metaverse-main/depricated-cerulean-circle-mep-proposal.md

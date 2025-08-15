@@ -1,3 +1,5 @@
+[📁 Once Specification](../once-specification.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000084/technical-debt.md) | [🌐 Page Structure local SymLink](./technical-debt.page.md)
+
 # Technical Debt
 
 - Use UcpComponent as a model for another UcpComponent with MVC support

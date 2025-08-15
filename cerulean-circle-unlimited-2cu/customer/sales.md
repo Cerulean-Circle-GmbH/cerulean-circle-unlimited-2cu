@@ -1,3 +1,5 @@
+[📁 Customer](../customer.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000021/sales.md) | [🌐 Page Structure local SymLink](./sales.page.md)
+
 # Sales
 
 ## ![(blue star)](https://2cu.atlassian.net/wiki/s/1732347312/6452/9ec310e9ed617fde640b4372fb0e11f5501675fa/_/images/icons/emoticons/72/1f44b.png)

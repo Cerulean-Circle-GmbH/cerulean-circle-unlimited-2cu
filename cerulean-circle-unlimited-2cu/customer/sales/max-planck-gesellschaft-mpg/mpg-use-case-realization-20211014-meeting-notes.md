@@ -1,3 +1,5 @@
+[📁 Max Planck Gesellschaft Mpg](../max-planck-gesellschaft-mpg.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000016/mpg-use-case-realization-20211014-meeting-notes.md) | [🌐 Page Structure local SymLink](./mpg-use-case-realization-20211014-meeting-notes.page.md)
+
 # MPG Use Case Realization - 20211014 Meeting notes
 
 ## Date

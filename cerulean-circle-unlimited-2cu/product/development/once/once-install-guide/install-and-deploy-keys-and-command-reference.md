@@ -1,3 +1,5 @@
+[📁 Once Install Guide](../once-install-guide.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000075/install-and-deploy-keys-and-command-reference.md) | [🌐 Page Structure local SymLink](./install-and-deploy-keys-and-command-reference.page.md)
+
 # Install and deploy keys (and command reference)
 
 # WODA configurations

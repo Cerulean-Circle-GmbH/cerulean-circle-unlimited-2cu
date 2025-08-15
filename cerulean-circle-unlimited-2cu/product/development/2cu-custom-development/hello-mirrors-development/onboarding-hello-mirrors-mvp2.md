@@ -1,3 +1,5 @@
+[📁 Hello Mirrors Development](../hello-mirrors-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000010/onboarding-hello-mirrors-mvp2.md) | [🌐 Page Structure local SymLink](./onboarding-hello-mirrors-mvp2.page.md)
+
 # Onboarding Hello Mirrors MVP2
 
 | **Screenshot** | **Function** |     |     |

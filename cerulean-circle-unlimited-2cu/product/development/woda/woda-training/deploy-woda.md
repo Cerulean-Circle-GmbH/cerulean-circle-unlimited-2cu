@@ -1,3 +1,5 @@
+[📁 Woda Training](../woda-training.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000108/deploy-woda.md) | [🌐 Page Structure local SymLink](./deploy-woda.page.md)
+
 # Deploy WODA
 
 WORK IN PROGRESS

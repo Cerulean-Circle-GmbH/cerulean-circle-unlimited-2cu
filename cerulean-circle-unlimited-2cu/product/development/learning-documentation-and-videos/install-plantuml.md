@@ -1,3 +1,5 @@
+[📁 Learning Documentation And Videos](../learning-documentation-and-videos.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000062/install-plantuml.md) | [🌐 Page Structure local SymLink](./install-plantuml.page.md)
+
 # Install PlantUML
 
 - [Install and start PlantUML server](#install-and-start-plantuml-server)

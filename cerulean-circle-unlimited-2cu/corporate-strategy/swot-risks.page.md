@@ -1,0 +1,1 @@
+../../2cu.atlassian.net/wiki/spaces/CCU/pages/600000004/swot-risks.md

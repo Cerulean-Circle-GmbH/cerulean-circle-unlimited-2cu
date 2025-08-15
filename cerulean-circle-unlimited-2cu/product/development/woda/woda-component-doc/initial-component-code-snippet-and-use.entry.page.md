@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000093/initial-component-code-snippet-and-use.entry.md

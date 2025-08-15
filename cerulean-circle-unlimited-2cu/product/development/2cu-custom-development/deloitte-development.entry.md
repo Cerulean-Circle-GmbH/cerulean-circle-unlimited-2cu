@@ -1,3 +1,5 @@
+[📁 2cu Custom Development](../2cu-custom-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000003/deloitte-development.entry.md) | [🌐 Page Structure local SymLink](./deloitte-development.entry.page.md)
+
 # Deloitte Development
 
 ### **Company Information:**

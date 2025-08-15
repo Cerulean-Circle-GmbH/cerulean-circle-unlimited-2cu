@@ -1,3 +1,5 @@
+[📁 Rfi Meetings](../rfi-meetings.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000029/2023-04-27-abdulaziz-meeting.md) | [🌐 Page Structure local SymLink](./2023-04-27-abdulaziz-meeting.page.md)
+
 # 2023 04 27 - Abdulaziz Meeting
 
 500 person days as currency

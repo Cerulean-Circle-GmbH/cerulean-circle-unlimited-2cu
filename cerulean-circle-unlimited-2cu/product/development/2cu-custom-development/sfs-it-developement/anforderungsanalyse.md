@@ -1,3 +1,5 @@
+[📁 Sfs It Developement](../sfs-it-developement.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000040/anforderungsanalyse.md) | [🌐 Page Structure local SymLink](./anforderungsanalyse.page.md)
+
 # Anforderungsanalyse
 
 Email vom 10.03.21 zwischen Rudolf Schmidt und Till Ruda

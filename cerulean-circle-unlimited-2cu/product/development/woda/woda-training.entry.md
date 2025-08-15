@@ -1,3 +1,5 @@
+[📁 Woda](../woda.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000109/woda-training.entry.md) | [🌐 Page Structure local SymLink](./woda-training.entry.page.md)
+
 # WODA Training
 
 Legend: viewed, repeated, done myself, reproduced, transfered, understood, teached

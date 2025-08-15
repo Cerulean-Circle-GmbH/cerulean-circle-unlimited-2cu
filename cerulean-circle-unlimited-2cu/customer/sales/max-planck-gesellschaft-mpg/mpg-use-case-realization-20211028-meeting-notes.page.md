@@ -1,0 +1,1 @@
+../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/500000018/mpg-use-case-realization-20211028-meeting-notes.md

@@ -1,3 +1,5 @@
+[📁 Development](../development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000011/2cu-custom-development.md) | [🌐 Page Structure local SymLink](./2cu-custom-development.page.md)
+
 # 2CU Custom Development
 
 - [NEOM PoC](./2cu-custom-development/neom-poc.md)

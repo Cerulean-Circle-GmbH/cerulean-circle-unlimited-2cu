@@ -1,3 +1,5 @@
+[📁 Sales](../sales.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000035/shift-phone.md) | [🌐 Page Structure local SymLink](./shift-phone.page.md)
+
 # Shift Phone
 
 ## Intent:

@@ -1,3 +1,5 @@
+[📁 Once Documentation](../once-documentation.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000074/woda-file-structure-and-once-basic-use.md) | [🌐 Page Structure local SymLink](./woda-file-structure-and-once-basic-use.page.md)
+
 # WODA - File Structure and ONCE basic use.
 
 Here you can watch a [workshop video](http://wo-da.de/RAW/2cuDevVideos/200603_11:14_Sprint-3_Integration_Bootstrap.mp4) about that.

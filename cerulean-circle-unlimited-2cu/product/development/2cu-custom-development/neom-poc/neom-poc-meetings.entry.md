@@ -1,3 +1,5 @@
+[📁 Neom Poc](../neom-poc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000017/neom-poc-meetings.entry.md) | [🌐 Page Structure local SymLink](./neom-poc-meetings.entry.page.md)
+
 # NEOM PoC Meetings
 
 - [Scrum Daily Stand-up Meetings](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1894744084/Scrum_Daily_Stand-up_Meetings.md)

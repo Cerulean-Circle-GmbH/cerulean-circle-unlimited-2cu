@@ -1,3 +1,5 @@
+[📁 Neom Poc](../neom-poc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000015/neom-basics.entry.md) | [🌐 Page Structure local SymLink](./neom-basics.entry.page.md)
+
 # NEOM Basics
 
 - [NEOM Kickoff Agenda](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1852243973/NEOM_Kickoff_Agenda.md)

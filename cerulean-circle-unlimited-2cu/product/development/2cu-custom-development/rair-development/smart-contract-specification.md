@@ -1,3 +1,5 @@
+[📁 Rair Development](../rair-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000035/smart-contract-specification.md) | [🌐 Page Structure local SymLink](./smart-contract-specification.page.md)
+
 # Smart Contract Specification
 
 - [Main Goals for RAIR Mainnet smart contracts](#main-goals-for-rair-mainnet-smart-contracts)

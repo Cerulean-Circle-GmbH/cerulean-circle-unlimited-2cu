@@ -1,3 +1,5 @@
+[📁 Sales](../sales.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000001/cloudeo.md) | [🌐 Page Structure local SymLink](./cloudeo.page.md)
+
 # Cloudeo
 
 ## Intent:

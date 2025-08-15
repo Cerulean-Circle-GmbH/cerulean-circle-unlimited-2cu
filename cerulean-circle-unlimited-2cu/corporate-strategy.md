@@ -1,3 +1,5 @@
+[📁 Cerulean Circle Unlimited 2cu](../cerulean-circle-unlimited-2cu.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/700000001/corporate-strategy.md) | [🌐 Page Structure local SymLink](./corporate-strategy.page.md)
+
 # Corporate Strategy
 
 ![](https://api.media.atlassian.com/file/c23090be-120d-4223-862a-7a05a6b6ced5/image?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIyNThjNGJmYi1kNmM0LTRiMmQtOGJmYS05MjczZjRmYzQwMGUiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOmMyMzA5MGJlLTEyMGQtNDIyMy04NjJhLTdhMDVhNmI2Y2VkNSI6WyJyZWFkIl19LCJleHAiOjE3NTQyOTg3MTEsIm5iZiI6MTc1NDI5NTcxMSwiYWFJZCI6IjU1NzA1ODoyNmZhN2IxMC1jZjQ5LTQ3M2MtODFjMS1mZWU0ZTU3NGE5ZjcifQ.BhIGThvFcyYQATAcmL9ugDHdKGx4IvrmKLB8fu_JrWw&client=258c4bfb-d6c4-4b2d-8bfa-9273f4fc400e&name=Picture%201.pdf)

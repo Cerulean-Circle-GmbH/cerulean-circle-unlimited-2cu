@@ -1,3 +1,5 @@
+[📁 Once](../once.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000081/once-specification.entry.md) | [🌐 Page Structure local SymLink](./once-specification.entry.page.md)
+
 # ONCE Specification
 
 - [Actors](#actors)

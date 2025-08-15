@@ -1,3 +1,5 @@
+[📁 Rair Development](../rair-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000024/crypto-partnerships-guide.md) | [🌐 Page Structure local SymLink](./crypto-partnerships-guide.page.md)
+
 # Crypto Partnerships Guide
 
 - [Wallet Providers](#wallet-providers)

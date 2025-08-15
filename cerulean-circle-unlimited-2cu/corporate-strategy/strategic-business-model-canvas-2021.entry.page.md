@@ -1,0 +1,1 @@
+../../2cu.atlassian.net/wiki/spaces/CCU/pages/600000002/strategic-business-model-canvas-2021.entry.md

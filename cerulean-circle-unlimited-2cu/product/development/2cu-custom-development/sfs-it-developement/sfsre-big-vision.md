@@ -1,3 +1,5 @@
+[📁 Sfs It Developement](../sfs-it-developement.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000044/sfsre-big-vision.md) | [🌐 Page Structure local SymLink](./sfsre-big-vision.page.md)
+
 # SFSRE - Big Vision
 
 myData under myControl a secure, P2P, domain driven, cross domain groupware.

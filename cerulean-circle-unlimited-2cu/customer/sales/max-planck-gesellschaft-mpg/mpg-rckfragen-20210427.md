@@ -1,3 +1,5 @@
+[📁 Max Planck Gesellschaft Mpg](../max-planck-gesellschaft-mpg.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000008/mpg-rckfragen-20210427.md) | [🌐 Page Structure local SymLink](./mpg-rckfragen-20210427.page.md)
+
 # MPG Rückfragen - 20210427
 
 ## From MPG

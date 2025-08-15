@@ -1,3 +1,5 @@
+[📁 Partner Management](../partner-management.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000119/deloitte.md) | [🌐 Page Structure local SymLink](./deloitte.page.md)
+
 # Deloitte
 
 ## Intent:

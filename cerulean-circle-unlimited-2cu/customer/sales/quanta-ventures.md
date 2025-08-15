@@ -1,3 +1,5 @@
+[📁 Sales](../sales.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000031/quanta-ventures.md) | [🌐 Page Structure local SymLink](./quanta-ventures.page.md)
+
 # Quanta Ventures
 
 ## Intent:

@@ -1,3 +1,5 @@
+[📁 Partner Management](../partner-management.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000121/investment-relationships.md) | [🌐 Page Structure local SymLink](./investment-relationships.page.md)
+
 # Investment Relationships
 
 - [Corey Sigvaldason](#corey-sigvaldason)

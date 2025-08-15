@@ -1,3 +1,5 @@
+[📁 Shift Gmbh Development](../shift-gmbh-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000055/time-management.md) | [🌐 Page Structure local SymLink](./time-management.page.md)
+
 # Time Management
 
 Development Server  

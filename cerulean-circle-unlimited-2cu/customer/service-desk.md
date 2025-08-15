@@ -1,3 +1,5 @@
+[📁 Customer](../customer.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000036/service-desk.md) | [🌐 Page Structure local SymLink](./service-desk.page.md)
+
 # Service Desk
 
 > [!INFO]

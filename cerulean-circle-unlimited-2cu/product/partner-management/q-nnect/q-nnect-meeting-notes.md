@@ -1,3 +1,5 @@
+[📁 Q Nnect](../q-nnect.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000128/q-nnect-meeting-notes.md) | [🌐 Page Structure local SymLink](./q-nnect-meeting-notes.page.md)
+
 # Q-nnect Meeting Notes
 
 ![](https://2cu.atlassian.net/wiki/images/icons/grey_arrow_down.png)

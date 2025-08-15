@@ -1,0 +1,180 @@
+[📁 Woda GitHub](/cerulean-circle-unlimited-2cu/product/development/woda.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/product/development/woda/woda-training.entry.md) | [🌐 Index Structure local SymLink](./woda-training.entry.entry.md)
+
+# WODA Training
+
+Legend: viewed, repeated, done myself, reproduced, transfered, understood, teached
+
+### Progess
+
+- [WODA Training - Nico](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1856536577/WODA_Training_-_Nico.md)
+- [WODA Training - Max](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1856995358/WODA_Training_-_Max.md)
+- [WODA Training - Daniel](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1866203137/WODA_Training_-_Daniel.md)
+- [WODA Training - Herman](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1868890113/WODA_Training_-_Herman.md)
+- [WODA Training - Johannes](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1870561285/WODA_Training_-_Johannes.md)
+- [WODA Training - Ralf](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1876918273/WODA_Training_-_Ralf.md)
+- [https://2cu.atlassian.net/l/cp/EHNAN4H0](https://2cu.atlassian.net/l/cp/EHNAN4H0)
+- [WODA Training - David](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1977417729/WODA_Training_-_David.md)
+
+# Content Overview
+
+Dierks YouTube Channel: [https://youtube.com/playlist?list=PLcWgLlhvg1Qc0KFBXB3ewafVpk4s1hN-X](https://youtube.com/playlist?list=PLcWgLlhvg1Qc0KFBXB3ewafVpk4s1hN-X)
+
+- json [https://drive.google.com/file/d/1uqOgndpXP\_FKQPNjuWrWiLsW1REYSmBo/view?usp=share\_link](https://drive.google.com/file/d/1uqOgndpXP_FKQPNjuWrWiLsW1REYSmBo/view?usp=share_link) ([https://youtu.be/dKzMgcwvTaU](https://youtu.be/dKzMgcwvTaU) )
+- UcpComponent ([Long long time ago ... programming was very simple](https://dev.wo-da.de/RAW/videos/UCP/UCP.mp4))
+  - This
+    - UcpComponentSupport.start() …`Object.defineProperty(ONCE.global, "This"`,…
+    - `Action.theSelection`
+      - Workflow.ACTION\_SELECT  
+NOT This = xzy
+  - WODA
+  - WODA.uses
+  - WODA.type
+- Interfaces
+  - Interface.discover()
+  - Interface.discover(View)
+    - ItemView
+    - DefaultView
+    - DetailView
+    - OverView
+    - CustomView
+  - Model
+    - json
+    - This.model
+    - This.data
+- EAMD repository [https://drive.google.com/file/d/17GNmOzzD6vgmuokpwXXBGmWUnXEP2XPD/view?usp=share\_link](https://drive.google.com/file/d/17GNmOzzD6vgmuokpwXXBGmWUnXEP2XPD/view?usp=share_link)
+  - Components
+    - Descriptor
+    - Drag & Drop Usage
+    - Structure
+    - Code
+  - Scenarios
+    - jsons
+    - Drag & Drop Usage
+    - Files
+- JavaScriptObject (GERMAN) [https://drive.google.com/file/d/1P1G6VjCFALy-PG4Axtm8ePgQQjYGf6xc/view](https://drive.google.com/file/d/1P1G6VjCFALy-PG4Axtm8ePgQQjYGf6xc/view) (Editing in chrome devTools: Changing user to root, to save changes on hard drive from devTools)
+- [https://drive.google.com/file/d/1Shx\_gkupda8CnE3jyK5qFaYcJHbzuVdZ/view](https://drive.google.com/file/d/1Shx_gkupda8CnE3jyK5qFaYcJHbzuVdZ/view) (The real session) ([https://youtu.be/yuaw4NgTtnc](https://youtu.be/yuaw4NgTtnc) )
+  - DefaultItemView
+    - name
+      - Thinglish
+    - displayName
+    - icon
+      - FontAwsome
+      - DragArea
+      - collapsible
+    - description
+    - badge
+  - DefaultDetailView
+    - TypeDescriptor [https://drive.google.com/file/d/15x4e3fPRbRYEoJ6TLnQDMIOSVf0iNfEx/view](https://drive.google.com/file/d/15x4e3fPRbRYEoJ6TLnQDMIOSVf0iNfEx/view)
+      - Attributes
+      - Properties
+      - Relationships
+      - Collections
+    - DefaultPropertyView
+      - Attribute
+        - primitive storage points
+        - primitive
+          - Number
+          - string/String
+          - boolean/Boolean
+        - Object => Reference
+        - \[\] => Collection
+      - Property
+        - get/setters
+        - belong to the Component Interface
+      - Enum in ProgessBar
+      - WHAT IS A COMPONENT
+        - it has an empty constructor
+        - [UCP](../../development/coast/eamducp-repository/ucp.md)
+      - discover (Deloitte ProductComparisonDemo link)
+        - string vs number
+        - Boolean “false“
+        - Enumeration
+          - ComboBox
+      - CustomPropertyView
+    - DefaultRelationship
+    - DefaultCollection
+  - OverView
+    - later
+      - Pagination
+      - Filter
+- MyUcpComponent [https://drive.google.com/file/d/13xYn3dPw2iZcZEhuHUcm5CfdeGlkwV0s/view](https://drive.google.com/file/d/13xYn3dPw2iZcZEhuHUcm5CfdeGlkwV0s/view) ([https://youtu.be/no1SsYrGFZw](https://youtu.be/no1SsYrGFZw) )
+  - IdealComponent
+    - create a component: /EAMD.ucp/Components/me/phibar/ftTemplates
+  - Inheritance
+    - Interface Typetagging
+    - DefaultImplemetation
+    - ProcessImplementation
+    - CustomerOwnedImplementation
+      - Ideally empty ;)
+      - handleSelection
+  - Implementation
+    - UcpModel
+      - data
+        - json
+    - UcpComponent
+      - data
+      - model
+        - ManagedProperties
+          - Particles
+          - Waves
+      - Navigation
+        - Selection
+        - Actions
+          - loose cupeling
+        - Events
+          - updateView
+            - callBacks
+          - UcpController
+        - Enumeration
+          - ComoBox
+        - Relationships
+          - IORs
+        - Collections
+          - Arrays
+          - SlipList
+      - type
+        - dependencies
+          - uses
+          - usedBy
+        - Thinglish
+      - UcpView
+        - declarative
+          - WebBeans
+            - <custom-tag>
+              - model attributes
+          - CSS
+            - twitter.Bootstrap
+              - jQuery
+            - Less
+              - BEM
+              - Theme
+                - DefaultTheme
+          - Layout
+            - Grid
+            - Card
+        - programatic
+- Session (Deloitte ProductComparisonDemo link) [https://drive.google.com/file/d/1n1x\_-OtOt-w9DH\_WkVzbKfrcgeT5IaC0/view](https://drive.google.com/file/d/1n1x_-OtOt-w9DH_WkVzbKfrcgeT5IaC0/view) ([https://youtu.be/GQ6TvCLw1-c](https://youtu.be/GQ6TvCLw1-c) )
+  - Login
+    - RestClient
+      - Router
+        - Route
+          - Page
+      - IOR
+        - Protocol
+          - Discovery
+  - myId
+  - myProfile
+- Persistence
+  - Structr
+    - StructrClient
+    - StructrModel
+      - SchemaNode
+      - UUID
+        - Relationship
+  - Drag&Drop
+    - Loader
+    - discover
+
+# Older material
+
+[Learning Documentation and Videos](../../development/learning-documentation-and-videos.md)

@@ -1,3 +1,5 @@
+[📁 Hello Mirrors Development](../hello-mirrors-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000005/ci-and-theme.md) | [🌐 Page Structure local SymLink](./ci-and-theme.page.md)
+
 # CI and Theme
 
 Current Hello Mirror Theme:

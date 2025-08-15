@@ -1,0 +1,1 @@
+../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000059/build-docker-container-for-php-and-mysql-based-application.md

@@ -1,3 +1,5 @@
+[📁 Coast](../coast.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000057/web-40.md) | [🌐 Page Structure local SymLink](./web-40.page.md)
+
 # Web 4.0
 
 The stack that forms the reference implementation for Web 4.0, that is the Internet of Services as a basis for the Internet of Things derived from [TLA](http://donges.it/category/architecture/): The Last Architecture.

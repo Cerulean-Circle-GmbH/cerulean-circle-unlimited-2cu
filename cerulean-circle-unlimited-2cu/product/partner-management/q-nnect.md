@@ -1,3 +1,5 @@
+[📁 Partner Management](../partner-management.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000124/q-nnect.md) | [🌐 Page Structure local SymLink](./q-nnect.page.md)
+
 # Q-nnect
 
 |     |     |

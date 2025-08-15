@@ -1,3 +1,5 @@
+[📁 Once Specification](../once-specification.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000085/thinglish-type-system.entry.md) | [🌐 Page Structure local SymLink](./thinglish-type-system.entry.page.md)
+
 # Thinglish Type System
 
 in Version \[2.0.0\] - \[3.latest\] as mapped to JavaScript

@@ -1,3 +1,5 @@
+[📁 Corporate Strategy](../corporate-strategy.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/600000002/strategic-business-model-canvas-2021.entry.md) | [🌐 Page Structure local SymLink](./strategic-business-model-canvas-2021.entry.page.md)
+
 # Strategic Business Model Canvas 2021
 
 | **Key Partner** | **Systems** | **Value Proposition Purpose** | **Processes** | **Target Groups** |

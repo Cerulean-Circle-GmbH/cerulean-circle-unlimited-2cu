@@ -1,3 +1,5 @@
+[📁 Once Install Guide](../once-install-guide.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000080/once-re-installation.md) | [🌐 Page Structure local SymLink](./once-re-installation.page.md)
+
 # once re-installation
 
 > [!INFO]

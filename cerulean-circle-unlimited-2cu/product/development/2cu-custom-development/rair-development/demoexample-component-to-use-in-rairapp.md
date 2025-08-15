@@ -1,3 +1,5 @@
+[📁 Rair Development](../rair-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000027/demoexample-component-to-use-in-rairapp.md) | [🌐 Page Structure local SymLink](./demoexample-component-to-use-in-rairapp.page.md)
+
 # Demo/Example component to use in RairApp
 
 ### **Woda 2.3.2**

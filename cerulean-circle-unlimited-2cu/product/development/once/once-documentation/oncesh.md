@@ -1,3 +1,5 @@
+[📁 Once Documentation](../once-documentation.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000072/oncesh.md) | [🌐 Page Structure local SymLink](./oncesh.page.md)
+
 # Once.sh
 
 - [New features](#new-features)

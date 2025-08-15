@@ -1,3 +1,5 @@
+[📁 Woda Component Doc](../woda-component-doc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000097/multilanguage.md) | [🌐 Page Structure local SymLink](./multilanguage.page.md)
+
 # Multilanguage
 
 ![](./attachments/Universal%20Translation.png.png)

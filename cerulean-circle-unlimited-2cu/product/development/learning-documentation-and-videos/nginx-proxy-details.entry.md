@@ -1,3 +1,5 @@
+[📁 Learning Documentation And Videos](../learning-documentation-and-videos.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000064/nginx-proxy-details.entry.md) | [🌐 Page Structure local SymLink](./nginx-proxy-details.entry.page.md)
+
 # Nginx Proxy Details
 
 Nginx Docker Proxy is used for redirect / point port number with url to easily access

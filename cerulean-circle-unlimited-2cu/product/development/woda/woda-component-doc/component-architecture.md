@@ -1,3 +1,5 @@
+[📁 Woda Component Doc](../woda-component-doc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000089/component-architecture.md) | [🌐 Page Structure local SymLink](./component-architecture.page.md)
+
 # Component Architecture
 
 WODA is the first Platform that supports Domain Driven Architecture natively in the Web Browser and across multiple backends.

@@ -1,3 +1,5 @@
+[📁 Hello Mirrors Development](../hello-mirrors-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000007/core-information-model-corim-hellomirrors.entry.md) | [🌐 Page Structure local SymLink](./core-information-model-corim-hellomirrors.entry.page.md)
+
 # Core Information Model (CorIM) HelloMirrors
 
 Description of the functional model of HelloMirrors

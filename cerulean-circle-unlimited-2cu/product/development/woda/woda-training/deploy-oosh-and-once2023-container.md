@@ -1,3 +1,5 @@
+[📁 Woda Training](../woda-training.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000107/deploy-oosh-and-once2023-container.md) | [🌐 Page Structure local SymLink](./deploy-oosh-and-once2023-container.page.md)
+
 # Deploy oosh and Once.2023 container
 
 WORK IN PROGRESS

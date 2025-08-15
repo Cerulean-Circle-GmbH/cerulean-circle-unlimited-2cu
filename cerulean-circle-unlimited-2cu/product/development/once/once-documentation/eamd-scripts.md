@@ -1,3 +1,5 @@
+[📁 Once Documentation](../once-documentation.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000070/eamd-scripts.md) | [🌐 Page Structure local SymLink](./eamd-scripts.page.md)
+
 # EAMD Scripts
 
 ### What is EAMD Scripts?

@@ -1,3 +1,5 @@
+[📁 Once Specification](../once-specification.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000082/less-compile.md) | [🌐 Page Structure local SymLink](./less-compile.page.md)
+
 # Less compile
 
 # Less Compile problem

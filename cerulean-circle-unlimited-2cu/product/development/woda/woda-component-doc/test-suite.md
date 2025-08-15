@@ -1,3 +1,5 @@
+[📁 Woda Component Doc](../woda-component-doc.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000099/test-suite.md) | [🌐 Page Structure local SymLink](./test-suite.page.md)
+
 # Test suite
 
 ### Testing Component (TC)

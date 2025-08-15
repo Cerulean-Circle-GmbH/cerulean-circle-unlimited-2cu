@@ -1,3 +1,5 @@
+[📁 Woda Training](../woda-training.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000110/structr-training.md) | [🌐 Page Structure local SymLink](./structr-training.page.md)
+
 # Structr Training
 
 > [!CAUTION]

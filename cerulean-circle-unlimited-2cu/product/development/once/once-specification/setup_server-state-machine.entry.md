@@ -1,3 +1,5 @@
+[📁 Once Specification](../once-specification.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000083/setup_server-state-machine.entry.md) | [🌐 Page Structure local SymLink](./setup_server-state-machine.entry.page.md)
+
 # SETUP_SERVER state machine
 
 | **enter** |     | **Remark (mostly in check methods)** | **follow up** |

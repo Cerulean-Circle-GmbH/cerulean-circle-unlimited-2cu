@@ -1,0 +1,1 @@
+../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/400000027/demoexample-component-to-use-in-rairapp.md

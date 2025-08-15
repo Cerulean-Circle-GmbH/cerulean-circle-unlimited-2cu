@@ -1,3 +1,5 @@
+[📁 Max Planck Gesellschaft Mpg](../max-planck-gesellschaft-mpg.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000013/mpg-sso-details-20210909-meeting-notes-draft.md) | [🌐 Page Structure local SymLink](./mpg-sso-details-20210909-meeting-notes-draft.page.md)
+
 # MPG SSO Details - 20210909 Meeting notes (draft)
 
 ## Date

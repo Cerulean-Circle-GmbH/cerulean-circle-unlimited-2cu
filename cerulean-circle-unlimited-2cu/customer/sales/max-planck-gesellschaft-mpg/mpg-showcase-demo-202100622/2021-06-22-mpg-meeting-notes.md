@@ -1,3 +1,5 @@
+[📁 Mpg Showcase Demo 202100622](../mpg-showcase-demo-202100622.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000009/2021-06-22-mpg-meeting-notes.md) | [🌐 Page Structure local SymLink](./2021-06-22-mpg-meeting-notes.page.md)
+
 # 2021-06-22 MPG Meeting notes
 
 ## Date

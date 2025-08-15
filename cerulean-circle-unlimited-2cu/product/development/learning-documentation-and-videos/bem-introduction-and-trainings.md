@@ -1,3 +1,5 @@
+[📁 Learning Documentation And Videos](../learning-documentation-and-videos.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000058/bem-introduction-and-trainings.md) | [🌐 Page Structure local SymLink](./bem-introduction-and-trainings.page.md)
+
 # BEM Introduction and Trainings
 
 ## BEM & WODA

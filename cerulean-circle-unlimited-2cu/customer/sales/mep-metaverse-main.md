@@ -1,3 +1,5 @@
+[📁 Sales](../sales.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000024/mep-metaverse-main.md) | [🌐 Page Structure local SymLink](./mep-metaverse-main.page.md)
+
 # MEP Metaverse - Main
 
 - [MEP Metaverse](./mep-metaverse-main/mep-metaverse.md)

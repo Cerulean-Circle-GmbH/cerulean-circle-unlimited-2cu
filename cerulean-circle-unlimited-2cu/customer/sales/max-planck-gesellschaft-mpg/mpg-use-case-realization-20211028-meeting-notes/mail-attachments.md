@@ -1,3 +1,5 @@
+[📁 Mpg Use Case Realization 20211028 Meeting Notes](../mpg-use-case-realization-20211028-meeting-notes.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/500000017/mail-attachments.md) | [🌐 Page Structure local SymLink](./mail-attachments.page.md)
+
 # Mail Attachments
 
 Marcel Donges [marcel.donges@ceruleancircle.com](mailto:marcel.donges@ceruleancircle.com)26.10.2021 09:04  

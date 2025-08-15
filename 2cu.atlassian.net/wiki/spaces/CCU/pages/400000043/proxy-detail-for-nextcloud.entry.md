@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/product/development/2cu-custom-development/sfs-it-developement/proxy-detail-for-nextcloud.md

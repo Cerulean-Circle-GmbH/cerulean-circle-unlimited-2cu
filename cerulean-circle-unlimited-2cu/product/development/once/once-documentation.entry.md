@@ -1,3 +1,5 @@
+[📁 Once](../once.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000071/once-documentation.entry.md) | [🌐 Page Structure local SymLink](./once-documentation.entry.page.md)
+
 # ONCE Documentation
 
 - [Getting Started Overview](#getting-started-overview)

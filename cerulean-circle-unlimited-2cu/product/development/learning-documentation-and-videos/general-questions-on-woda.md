@@ -1,3 +1,5 @@
+[📁 Learning Documentation And Videos](../learning-documentation-and-videos.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000061/general-questions-on-woda.md) | [🌐 Page Structure local SymLink](./general-questions-on-woda.page.md)
+
 # General Questions on WODA
 
 1. How to create a component from zero?

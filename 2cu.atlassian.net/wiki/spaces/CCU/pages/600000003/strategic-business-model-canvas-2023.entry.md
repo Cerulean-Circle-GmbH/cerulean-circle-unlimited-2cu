@@ -1,0 +1,1 @@
+../../../../../../cerulean-circle-unlimited-2cu/corporate-strategy/strategic-business-model-canvas-2023.md

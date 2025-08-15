@@ -1,3 +1,5 @@
+[📁 Shift Gmbh Development](../shift-gmbh-development.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/400000047/comparison-of-codeigniter-framework.md) | [🌐 Page Structure local SymLink](./comparison-of-codeigniter-framework.page.md)
+
 # Comparison Of Codeigniter framework
 
 As a business owner, you want CodeIgniter 3 to meet the following important components:
