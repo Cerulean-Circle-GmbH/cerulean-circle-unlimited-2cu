@@ -51,9 +51,13 @@ mkdir -p "$PAGES_TARGET_DIR"
 echo "📤 Phase 1: Copying file to pages structure..."
 cp "$NEW_FILE" "$PAGES_TARGET_FILE"
 
-# PHASE 2: Create backup of original
-echo "💾 Phase 2: Creating migration backup..."
-cp "$NEW_FILE" "${NEW_FILE}.migration.backup"
+# PHASE 2: Create git-based rollback point
+echo "💾 Phase 2: Creating git rollback point..."
+ROLLBACK_TAG="rollback-add-$(basename "$NEW_FILE" .md)-$(date +%Y%m%d-%H%M%S)"
+git add .
+git commit -m "ROLLBACK_POINT: Before adding $NEW_FILE to dual-context architecture" 2>/dev/null || true
+git tag -a "$ROLLBACK_TAG" -m "Rollback point before integrating $(basename "$NEW_FILE")" 2>/dev/null || true
+echo "🏷️  Rollback tag created: $ROLLBACK_TAG"
 
 # PHASE 3: Create symlink from original location to pages
 echo "🔗 Phase 3: Creating symlink in original location..."
@@ -70,10 +74,11 @@ done
 RELATIVE_PATH="${RELATIVE_PATH}2cu.atlassian.net/wiki/spaces/CCU/pages/$PAGE_ID/${FILENAME_NO_EXT}.md"
 ln -sf "$RELATIVE_PATH" "$NEW_FILE"
 
-# PHASE 4: Create .entry.md file for original context
+# PHASE 4: Create .entry.md file for original context  
 echo "📝 Phase 4: Creating .entry.md for original context..."
 ENTRY_FILE="${NEW_FILE}.entry.md"
-cp "${NEW_FILE}.migration.backup" "$ENTRY_FILE"
+# Copy original content to entry file (preserving original links)
+cp "$PAGES_TARGET_FILE" "$ENTRY_FILE"
 
 # PHASE 5: Scan for Atlassian links and add to mapping if found
 echo "🔍 Phase 5: Scanning for Atlassian links..."
@@ -98,7 +103,7 @@ echo "📊 Summary:"
 echo "   📁 Original: $NEW_FILE (→ symlink to pages)"
 echo "   📁 Pages: $PAGES_TARGET_FILE (→ real file)"
 echo "   📁 Entry: $ENTRY_FILE (→ original context)"
-echo "   📁 Backup: ${NEW_FILE}.migration.backup"
+echo "   🏷️  Rollback: $ROLLBACK_TAG (→ git tag for safety)"
 echo ""
 echo "🎯 Both navigation contexts are now available:"
 echo "   - Access via symlink: Uses pages context navigation"

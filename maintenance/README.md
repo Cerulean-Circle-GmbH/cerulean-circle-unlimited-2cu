@@ -222,28 +222,44 @@ find . -type l ! -exec test -e {} \; -print  # Broken symlinks
 ## ⚠️ **Important Notes**
 
 ### **File Handling Rules**
-1. **Never delete `.migration.backup` files** - they're needed for sync operations
+1. **Use git-based rollbacks** - no `.migration.backup` files needed
 2. **Always use maintenance tools** for file operations to preserve architecture
 3. **Test with `--dry-run`** before applying changes
 4. **Commit frequently** - git hooks provide safety checks
+5. **Git tags for rollback points** - each operation creates tagged rollback points
 
 ### **Link Format Guidelines**
 - **Pages context**: Use relative paths within pages (`../[ID]/target.md`)
 - **Original context**: Use original relative paths (`../../path/to/target.md`)
 - **External links**: Leave unchanged (Jira, user profiles, images)
 
+### **Git-Based Safety Strategy**
+- **Rollback tags**: Each operation creates timestamped git tags
+- **Commit checkpoints**: All changes committed with descriptive messages  
+- **No backup files**: Use `git reset --hard [tag]` for rollbacks
+- **Clean repository**: No `.migration.backup` clutter
+
 ### **Sync Considerations**
 - **Newer file wins** - sync direction based on modification time
 - **Manual review** may be needed for complex link transformations
-- **Backup created** before sync operations
+- **Git checkpoints** created before sync operations
 - **Test both contexts** after sync
 
 ## 📚 **Additional Resources**
 
 - **PDCA Documentation**: `../PDCA/` - Complete project history and methodology
+- **Recovery Documentation**: `../PDCA/recover.md` - AI agent recovery after VS Code restarts
+- **Agent Role Definition**: `../PDCA/ai.roles/OntologyAgent.md` - Complete agent context and capabilities
 - **Original Issue Analysis**: `../PDCA/2025-01-27-UTC-1045.md` - Initial problem description
 - **Architecture Decision**: `../PDCA/2025-01-27-UTC-1230.md` - Architectural inversion rationale
 - **Sync Strategy**: `../PDCA/2025-01-27-UTC-1430.md` - Synchronization planning
+
+### **Recovery Instructions**
+If VS Code/Cursor terminal hangs or crashes:
+1. Restart VS Code
+2. Tell the AI agent: "Please recover from readme"
+3. Agent will read `../PDCA/recover.md` and `../PDCA/ai.roles/OntologyAgent.md` for complete context
+4. Continue seamlessly from last checkpoint
 
 ## 🎯 **Success Metrics**
 
