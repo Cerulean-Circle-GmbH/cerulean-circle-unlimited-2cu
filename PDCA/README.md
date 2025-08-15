@@ -10,6 +10,9 @@ This directory contains Plan-Do-Check-Act (PDCA) cycle documentation for the Cer
 - [**Maintenance System v2.0 - Dual-Context Navigation Implementation**](./2025-01-27-maintenance-v2-implementation.md)  
   *UTC 2100-2200* - Implementation of the new dual-context navigation system with tools for migrate, create, add, and update operations. Includes successful test on eamducp-repository.md.
 
+- [**Mass Migration to Dual-Context Navigation**](./2025-01-27-mass-migration-planning.md)  
+  *UTC 2230* - Planning and strategy for migrating all ~300 files from index.md to dual-context navigation structure. Includes page ID mapping, batch scripts, and phased approach.
+
 #### Repository Recovery and Reorganization
 - [UTC 10:45 - Initial Recovery Assessment](./2025-01-27-UTC-1045.md)
 - [UTC 11:30 - Repository Structure Analysis](./2025-01-27-UTC-1130.md)
