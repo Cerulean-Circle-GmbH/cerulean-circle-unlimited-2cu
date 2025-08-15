@@ -1,4 +1,4 @@
-[📁 Coast](../coast.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/288981000/eamducp-repository.md) | [🌐 Page Structure local SymLink](./eamducp-repository.page.md)
+[📁 Coast GitHub](/cerulean-circle-unlimited-2cu/product/development/coast.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository.md) | [🌐 Index Structure local SymLink](./eamducp-repository.entry.md)
 
 # EAMD.ucp Repository
 
