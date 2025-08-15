@@ -1,0 +1,157 @@
+#!/bin/bash
+
+# post-merge - Git hook to handle dual-context architecture after merges
+# This hook runs automatically after successful merges
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+MAINTENANCE_DIR="$(cd "$SCRIPT_DIR/../src/sh" && pwd)"
+
+echo "🔄 Post-merge: Checking dual-context architecture integrity"
+
+# Check if any .md files were added or modified in the merge
+MODIFIED_MD_FILES=$(git diff --name-only HEAD@{1} HEAD | grep '\.md$' || true)
+
+if [ -z "$MODIFIED_MD_FILES" ]; then
+    echo "📝 No markdown files modified in merge - no action needed"
+    exit 0
+fi
+
+echo "📊 Modified markdown files in merge:"
+echo "$MODIFIED_MD_FILES" | while read -r file; do
+    if [ -f "$file" ]; then
+        echo "   📄 $file"
+    else
+        echo "   🗑️  $file (deleted)"
+    fi
+done
+
+# Function to auto-integrate new markdown files
+auto_integrate_file() {
+    local file="$1"
+    
+    # Skip if file doesn't exist (was deleted)
+    if [ ! -f "$file" ]; then
+        return 0
+    fi
+    
+    # Skip files that are already part of dual-context
+    if [ -L "$file" ] || [[ "$file" == *.entry.md ]]; then
+        return 0
+    fi
+    
+    # Skip files in pages structure
+    if [[ "$file" == *"2cu.atlassian.net/wiki/spaces/CCU/pages"* ]]; then
+        return 0
+    fi
+    
+    # Check if this file needs integration
+    local entry_file="${file}.entry.md"
+    
+    if [ ! -f "$entry_file" ] && [ ! -L "$file" ]; then
+        echo "🔧 Auto-integrating new file: $file"
+        
+        if [ -x "$MAINTENANCE_DIR/add_new_markdown.sh" ]; then
+            "$MAINTENANCE_DIR/add_new_markdown.sh" "$file"
+            echo "✅ Successfully integrated: $file"
+            return 0
+        else
+            echo "❌ Integration script not found or not executable"
+            echo "💡 Manual integration required: maintenance/src/sh/add_new_markdown.sh '$file'"
+            return 1
+        fi
+    fi
+    
+    return 0
+}
+
+# Auto-integrate new files
+AUTO_INTEGRATION_NEEDED=false
+
+echo ""
+echo "🔧 Checking for auto-integration needs..."
+
+echo "$MODIFIED_MD_FILES" | while read -r file; do
+    if [ -n "$file" ]; then
+        if ! auto_integrate_file "$file"; then
+            AUTO_INTEGRATION_NEEDED=true
+        fi
+    fi
+done
+
+# Check for sync needs between dual-context files
+echo ""
+echo "🔄 Checking for sync needs..."
+
+SYNC_NEEDED=false
+
+echo "$MODIFIED_MD_FILES" | while read -r file; do
+    if [ -n "$file" ] && [ -f "$file" ]; then
+        # Check if this is a pages file that might need sync to entry file
+        if [[ "$file" == *"2cu.atlassian.net/wiki/spaces/CCU/pages"* ]]; then
+            echo "📄 Pages file modified: $file"
+            SYNC_NEEDED=true
+        fi
+        
+        # Check if this is an entry file that might need sync to pages file
+        if [[ "$file" == *.entry.md ]]; then
+            echo "📄 Entry file modified: $file"
+            SYNC_NEEDED=true
+        fi
+    fi
+done
+
+if [ "$SYNC_NEEDED" = true ]; then
+    echo "🔄 Sync may be needed between dual-context files"
+    echo "💡 Consider running: maintenance/src/sh/sync_dual_context.sh --dry-run"
+fi
+
+# Run link validation
+echo ""
+echo "🔗 Running post-merge link validation..."
+
+if [ -x "$MAINTENANCE_DIR/validate_links.sh" ]; then
+    if ! "$MAINTENANCE_DIR/validate_links.sh" --context both; then
+        echo "⚠️  Link validation issues detected"
+        echo "💡 Run with fix option: maintenance/src/sh/validate_links.sh --fix"
+        VALIDATION_ISSUES=true
+    else
+        echo "✅ All links are valid"
+        VALIDATION_ISSUES=false
+    fi
+else
+    echo "⚠️  Link validation script not found"
+    VALIDATION_ISSUES=false
+fi
+
+# Summary and recommendations
+echo ""
+echo "📊 POST-MERGE SUMMARY"
+echo "===================="
+
+if [ "$AUTO_INTEGRATION_NEEDED" = true ]; then
+    echo "⚠️  Some files require manual integration"
+    echo "💡 Run integration tools for new markdown files"
+fi
+
+if [ "$SYNC_NEEDED" = true ]; then
+    echo "⚠️  Dual-context sync may be needed"
+    echo "💡 Check sync status: maintenance/src/sh/sync_dual_context.sh --dry-run"
+fi
+
+if [ "$VALIDATION_ISSUES" = true ]; then
+    echo "⚠️  Link validation issues detected"
+    echo "💡 Fix broken links: maintenance/src/sh/validate_links.sh --fix"
+fi
+
+if [ "$AUTO_INTEGRATION_NEEDED" = false ] && [ "$SYNC_NEEDED" = false ] && [ "$VALIDATION_ISSUES" = false ]; then
+    echo "✅ Dual-context architecture is healthy"
+fi
+
+echo ""
+echo "🎯 Post-merge check complete"
+
+# Note: We don't exit with error code as post-merge hooks shouldn't prevent merges
+# Instead, we provide guidance for manual actions needed
+exit 0
