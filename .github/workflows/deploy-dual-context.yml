@@ -1,0 +1,140 @@
+name: Deploy Dual-Context Architecture
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: 'Perform a dry run (no changes)'
+        required: false
+        type: boolean
+        default: true
+      target-branch:
+        description: 'Target branch for deployment'
+        required: false
+        type: string
+        default: 'main'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy Dual-Context to ${{ inputs.target-branch }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ inputs.target-branch }}
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+    - name: Set up environment
+      run: |
+        echo "REPO_ROOT=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+        chmod +x maintenance/v2.0/scripts/*.sh
+        
+    - name: Pre-deployment validation
+      run: |
+        echo "## 🔍 Pre-Deployment Status" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Count current state
+        REGULAR_MD=$(find cerulean-circle-unlimited-2cu -name "*.md" -type f | grep -v "\.entry\.md$" | wc -l || echo 0)
+        SYMLINKS=$(find cerulean-circle-unlimited-2cu -name "*.md" -type l | grep -v "\.entry\.md$" | wc -l || echo 0)
+        ENTRIES=$(find cerulean-circle-unlimited-2cu -name "*.entry.md" -type f | wc -l || echo 0)
+        
+        echo "### Current State:" >> $GITHUB_STEP_SUMMARY
+        echo "- 📄 Regular MD files: $REGULAR_MD" >> $GITHUB_STEP_SUMMARY
+        echo "- 🔗 Existing symlinks: $SYMLINKS" >> $GITHUB_STEP_SUMMARY
+        echo "- 📝 Existing entry files: $ENTRIES" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "$REGULAR_MD" -eq 0 ] && [ "$SYMLINKS" -gt 0 ]; then
+          echo "::notice::Dual-context architecture already deployed!"
+          echo "✅ **Already Deployed**: The dual-context architecture is already active on this branch." >> $GITHUB_STEP_SUMMARY
+          exit 0
+        fi
+        
+    - name: Run deployment (dry-run)
+      if: inputs.dry-run
+      run: |
+        echo "## 🧪 Dry Run Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        maintenance/v2.0/scripts/deploy-to-main.sh --dry-run | tee deploy-output.txt
+        
+        # Extract counts
+        TO_CONVERT=$(grep "Found .* markdown files to convert" deploy-output.txt | grep -o '[0-9]*' | head -1 || echo 0)
+        
+        echo "### Deployment Plan:" >> $GITHUB_STEP_SUMMARY
+        echo "- 📄 Files to convert: $TO_CONVERT" >> $GITHUB_STEP_SUMMARY
+        echo "- 🔗 Symlinks to create: $TO_CONVERT" >> $GITHUB_STEP_SUMMARY
+        echo "- 📝 Entry files to create: $TO_CONVERT" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ **Dry run complete** - No changes were made." >> $GITHUB_STEP_SUMMARY
+        
+    - name: Run deployment (actual)
+      if: '!inputs.dry-run'
+      run: |
+        echo "## 🚀 Deployment Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Create deployment tag
+        DEPLOY_TAG="github-deploy-$(date +%Y%m%d-%H%M%S)"
+        git tag -a "$DEPLOY_TAG" -m "GitHub Actions deployment start"
+        
+        # Run deployment
+        echo "no" | maintenance/v2.0/scripts/deploy-to-main.sh | tee deploy-output.txt
+        
+        # Extract results
+        CONVERTED=$(grep "Converted files:" deploy-output.txt | grep -o '[0-9]*' || echo 0)
+        
+        echo "### Deployment Complete:" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Files converted: $CONVERTED" >> $GITHUB_STEP_SUMMARY
+        echo "- 🏷️ Deployment tag: $DEPLOY_TAG" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+    - name: Push changes
+      if: '!inputs.dry-run'
+      run: |
+        git push origin ${{ inputs.target-branch }}
+        git push --tags
+        
+        echo "✅ **Deployment pushed** to \`${{ inputs.target-branch }}\`" >> $GITHUB_STEP_SUMMARY
+        
+    - name: Create summary issue
+      if: '!inputs.dry-run'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const issue = await github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: `Dual-Context Deployment Complete on ${context.payload.inputs['target-branch']}`,
+            body: `## 🎉 Dual-Context Architecture Deployed
+            
+            The dual-context architecture has been successfully deployed to \`${{ inputs.target-branch }}\`.
+            
+            ### Deployment Details
+            - **Workflow Run**: [#${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            - **Deployed By**: @${{ github.actor }}
+            - **Target Branch**: \`${{ inputs.target-branch }}\`
+            
+            ### Next Steps
+            1. Verify the deployment by checking the [file structure](https://github.com/${{ github.repository }}/tree/${{ inputs.target-branch }})
+            2. Test navigation in both contexts
+            3. Monitor for any issues
+            
+            cc: @${{ github.actor }}`,
+            labels: ['deployment', 'dual-context']
+          });
+          
+          console.log(`Created issue #${issue.data.number}`);

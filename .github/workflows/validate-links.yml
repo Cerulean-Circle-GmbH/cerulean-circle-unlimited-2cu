@@ -1,0 +1,95 @@
+name: Validate Dual-Context Links
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - 'maintenance/v2.0/scripts/**'
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+  workflow_dispatch:
+
+jobs:
+  validate-links:
+    runs-on: ubuntu-latest
+    name: Validate Links in Dual Context
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Set up environment
+      run: |
+        echo "REPO_ROOT=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+        chmod +x maintenance/v2.0/scripts/*.sh
+        
+    - name: Check dual-context sync
+      id: sync-check
+      run: |
+        if maintenance/v2.0/scripts/sync-contexts.sh --check-only; then
+          echo "sync_status=in-sync" >> $GITHUB_OUTPUT
+        else
+          echo "sync_status=out-of-sync" >> $GITHUB_OUTPUT
+          echo "::warning::Dual contexts are out of sync"
+        fi
+        
+    - name: Validate link integrity
+      run: |
+        # Count dual-context files
+        SYMLINKS=$(find cerulean-circle-unlimited-2cu -name "*.md" -type l | grep -v "\.entry\.md$" | wc -l || echo 0)
+        ENTRIES=$(find cerulean-circle-unlimited-2cu -name "*.entry.md" -type f | wc -l || echo 0)
+        PAGES=$(find 2cu.atlassian.net/wiki/spaces/CCU/pages -name "*.md" -type f | wc -l || echo 0)
+        
+        echo "## 📊 Dual-Context Statistics" >> $GITHUB_STEP_SUMMARY
+        echo "- 🔗 Symlinks: $SYMLINKS" >> $GITHUB_STEP_SUMMARY
+        echo "- 📝 Entry files: $ENTRIES" >> $GITHUB_STEP_SUMMARY
+        echo "- 📁 Pages files: $PAGES" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Validate consistency
+        if [ "$SYMLINKS" -ne "$ENTRIES" ]; then
+          echo "::error::Mismatch between symlinks ($SYMLINKS) and entry files ($ENTRIES)"
+          exit 1
+        fi
+        
+        echo "✅ Link validation passed!" >> $GITHUB_STEP_SUMMARY
+        
+    - name: Check for broken links
+      run: |
+        # Find broken symlinks
+        BROKEN=$(find cerulean-circle-unlimited-2cu -xtype l -name "*.md" 2>/dev/null | wc -l || echo 0)
+        
+        if [ "$BROKEN" -gt 0 ]; then
+          echo "::error::Found $BROKEN broken symlinks"
+          find cerulean-circle-unlimited-2cu -xtype l -name "*.md" 2>/dev/null
+          exit 1
+        fi
+        
+        echo "✅ No broken symlinks found!" >> $GITHUB_STEP_SUMMARY
+        
+    - name: Post PR comment
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const syncStatus = '${{ steps.sync-check.outputs.sync_status }}';
+          const icon = syncStatus === 'in-sync' ? '✅' : '⚠️';
+          const status = syncStatus === 'in-sync' ? 'in sync' : 'out of sync';
+          
+          const comment = `## ${icon} Dual-Context Validation
+          
+          **Sync Status**: Contexts are ${status}
+          
+          View the full validation report in the [workflow summary](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}).`;
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });
