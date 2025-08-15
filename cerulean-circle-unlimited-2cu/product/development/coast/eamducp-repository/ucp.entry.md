@@ -1,4 +1,4 @@
-[📁 EAMD.ucp Repository](../eamducp-repository.md) | 🌐 Page Structure NOT FOUND
+[📁 EAMD.ucp Repository](../eamducp-repository.md) | [🌐 Page Structure](./ucp.md)
 
 # UCP
 
