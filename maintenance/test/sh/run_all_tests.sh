@@ -25,6 +25,7 @@ cd "$REPO_ROOT"
 TESTS=(
     "test_add_new_markdown.sh:Add New Markdown Integration"
     "test_validate_links.sh:Link Validation"
+    "test_anti_hanging.sh:Anti-Hanging Script Validation"
 )
 
 # Results tracking

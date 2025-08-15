@@ -169,7 +169,36 @@ Automatically runs after successful merges:
 ```bash
 ./maintenance/test/sh/test_add_new_markdown.sh   # Test integration tool
 ./maintenance/test/sh/test_validate_links.sh     # Test validation tool
+./maintenance/test/sh/test_anti_hanging.sh       # Test anti-hanging patterns
 ```
+
+## 🛡️ **Anti-Hanging Protection**
+
+### **Safe Utilities**
+```bash
+# Source anti-hanging utilities in your scripts
+source "$(dirname "${BASH_SOURCE[0]}")/anti_hang_utils.sh"
+
+# Use safe alternatives
+safe_commit "Single line commit message" "file.txt"
+safe_execute 30 curl https://example.com
+safe_network_op 3 30 wget https://example.com
+```
+
+### **Best Practices**
+✅ **Use single-line strings** in shell commands  
+✅ **Break complex chains** into simple commands  
+✅ **Always use non-interactive flags** (-y, --yes)  
+✅ **Add timeouts** for network operations  
+✅ **Use 'set -e'** for proper error handling  
+✅ **Test commands in isolation** first
+
+### **Hanging Prevention**
+The anti-hanging test suite validates all scripts for:
+- Multi-line strings in commands (CRITICAL)
+- Complex command chains (WARNING)
+- Interactive commands without flags (WARNING)
+- Network operations without timeouts (WARNING)
 
 ## 📋 **Common Workflows**
 
