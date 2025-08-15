@@ -1,4 +1,4 @@
-📁 EAMD.ucp Repository NOT FOUND | [🌐 Index Structure](/cerulean-circle-unlimited-2cu/blob/main/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/ucp.md)
+[📁 EAMD.ucp Repository](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository.md) | [🌐 Index Structure](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/ucp.md)
 
 # UCP
 
