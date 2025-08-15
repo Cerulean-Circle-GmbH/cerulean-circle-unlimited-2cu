@@ -1,4 +1,4 @@
-[📁 EAMD.ucp Repository](../eamducp-repository.md) | [🌐 Page Structure](/2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md)
+[📁 EAMD.ucp Repository](../eamducp-repository.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md) 
 
 # UCP
 
