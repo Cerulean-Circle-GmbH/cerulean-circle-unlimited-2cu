@@ -1,11 +1,8 @@
-[../README.md](../README.md) ⬅️ **Main Project Documentation**
+[PDCA/](PDCA/)
 
-# Maintenance System - Detailed Documentation
+# Dual-Context Architecture Maintenance System
 
-> **Note**: This file has been promoted to the main project README.md  
-> **See**: [../README.md](../README.md) for the comprehensive project documentation.
-
-This file remains for detailed maintenance procedures and internal development reference.
+This maintenance system provides automated tools and git integrations to maintain the dual-context architecture for Atlassian link resolution in the Cerulean Circle Unlimited 2CU export repository.
 
 ## 🏗️ **Architecture Overview**
 
@@ -279,18 +276,18 @@ find . -type l ! -exec test -e {} \; -print  # Broken symlinks
 
 ## 📚 **Additional Resources**
 
-- **PDCA Documentation**: `../PDCA/` - Complete project history and methodology
-- **Recovery Documentation**: `../PDCA/recover.md` - AI agent recovery after VS Code restarts
-- **Agent Role Definition**: `../PDCA/ai.roles/OntologyAgent.md` - Complete agent context and capabilities
-- **Original Issue Analysis**: `../PDCA/2025-01-27-UTC-1045.md` - Initial problem description
-- **Architecture Decision**: `../PDCA/2025-01-27-UTC-1230.md` - Architectural inversion rationale
-- **Sync Strategy**: `../PDCA/2025-01-27-UTC-1430.md` - Synchronization planning
+- **PDCA Documentation**: `PDCA/` - Complete project history and methodology
+- **Recovery Documentation**: `PDCA/recover.md` - AI agent recovery after VS Code restarts
+- **Agent Role Definition**: `PDCA/ai.roles/OntologyAgent.md` - Complete agent context and capabilities
+- **Original Issue Analysis**: `PDCA/2025-01-27-UTC-1045.md` - Initial problem description
+- **Architecture Decision**: `PDCA/2025-01-27-UTC-1230.md` - Architectural inversion rationale
+- **Sync Strategy**: `PDCA/2025-01-27-UTC-1430.md` - Synchronization planning
 
 ### **Recovery Instructions**
 If VS Code/Cursor terminal hangs or crashes:
 1. Restart VS Code
 2. Tell the AI agent: "Please recover from readme"
-3. Agent will read `../PDCA/recover.md` and `../PDCA/ai.roles/OntologyAgent.md` for complete context
+3. Agent will read `PDCA/recover.md` and `PDCA/ai.roles/OntologyAgent.md` for complete context
 4. Continue seamlessly from last checkpoint
 
 ## 🎯 **Success Metrics**

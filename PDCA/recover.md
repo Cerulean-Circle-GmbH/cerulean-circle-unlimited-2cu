@@ -32,7 +32,8 @@
 ### **Files Modified in Current Session**
 1. `PDCA/2025-01-27-UTC-1500.md` - Web testing and git-based rollback PDCA
 2. `maintenance/src/sh/add_new_markdown.sh` - Removed migration.backup, added git tags
-3. `maintenance/README.md` - Updated documentation for git-based safety
+3. `../README.md` - Main project documentation (promoted from maintenance/)
+4. `maintenance/README.md` - Detailed maintenance procedures
 
 ### **Key Improvements**
 - ❌ **Eliminated migration_backup** (user requirement)
@@ -79,7 +80,8 @@
 - `maintenance/src/sh/add_new_markdown.sh` - Integration tool (git-based)
 - `maintenance/src/sh/validate_links.sh` - Link validation
 - `maintenance/src/sh/sync_dual_context.sh` - Sync between contexts
-- `maintenance/README.md` - Complete documentation
+- `../README.md` - Main project documentation  
+- `maintenance/README.md` - Detailed maintenance procedures
 
 ### **Git Status**
 ```bash
@@ -117,11 +119,13 @@ find . -name "*.entry.md" | wc -l  # Should be 29
 ### **Local Files**
 - [PDCA/2025-01-27-UTC-1045.md](file:///Users/Shared/Workspaces/2cuGitHub/Web4Articles/workspacesMountPoint/2cuGitHub/cerulean-circle-unlimited-2cu/PDCA/2025-01-27-UTC-1045.md)
 - [PDCA/2025-01-27-UTC-1500.md](file:///Users/Shared/Workspaces/2cuGitHub/Web4Articles/workspacesMountPoint/2cuGitHub/cerulean-circle-unlimited-2cu/PDCA/2025-01-27-UTC-1500.md)
+- [README.md](file:///Users/Shared/Workspaces/2cuGitHub/Web4Articles/workspacesMountPoint/2cuGitHub/cerulean-circle-unlimited-2cu/README.md) ⭐ **Main Documentation**  
 - [maintenance/README.md](file:///Users/Shared/Workspaces/2cuGitHub/Web4Articles/workspacesMountPoint/2cuGitHub/cerulean-circle-unlimited-2cu/maintenance/README.md)
 
 ### **GitHub Files** (after push)
-- [PDCA/2025-01-27-UTC-1045.md](https://github.com/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/feat/linksMigrated/PDCA/2025-01-27-UTC-1045.md)
-- [PDCA/2025-01-27-UTC-1500.md](https://github.com/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/feat/linksMigrated/PDCA/2025-01-27-UTC-1500.md)
+- [README.md](https://github.com/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/main/README.md) ⭐ **Main Documentation**  
+- [PDCA/2025-01-27-UTC-1045.md](https://github.com/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/main/PDCA/2025-01-27-UTC-1045.md)
+- [PDCA/2025-01-27-UTC-1500.md](https://github.com/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/main/PDCA/2025-01-27-UTC-1500.md)
 
 ## **🎉 Project Achievements**
 
