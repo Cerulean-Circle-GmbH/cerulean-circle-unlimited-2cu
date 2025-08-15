@@ -1,0 +1,63 @@
+name: Dual-Context Auto-Sync
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.md'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.md'
+
+jobs:
+  sync-dual-context:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 2  # Need previous commit to detect changes
+    
+    - name: Detect changed files
+      id: changed-files
+      run: |
+        echo "files=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | grep -v '📁' || true)" >> $GITHUB_OUTPUT
+    
+    - name: Setup migration tools
+      if: steps.changed-files.outputs.files != ''
+      run: |
+        chmod +x maintenance/v2.0/dual-context.sh
+        chmod +x maintenance/v2.0/src/*.sh
+    
+    - name: Process new/modified files
+      if: steps.changed-files.outputs.files != ''
+      run: |
+        for file in ${{ steps.changed-files.outputs.files }}; do
+          echo "Processing: $file"
+          
+          # Check if file already has navigation
+          if ! grep -q "📁" "$file" 2>/dev/null; then
+            # New file - generate page ID and migrate
+            PAGE_ID=$(date +%s%N | cut -b1-9)  # Generate unique ID
+            echo "New file detected: $file (ID: $PAGE_ID)"
+            ./maintenance/v2.0/dual-context.sh migrate "$file" "$PAGE_ID"
+          else
+            # Existing file - check if navigation needs update
+            echo "Existing file modified: $file"
+            # Could add logic here to update navigation if needed
+          fi
+        done
+    
+    - name: Commit changes
+      if: steps.changed-files.outputs.files != ''
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-sync: Add dual-context navigation to new/modified files"
+          git push
+        fi
