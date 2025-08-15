@@ -6,7 +6,7 @@ Version 1.0 was created at Deutsche Bahn to Manage their Data Centers with CMM l
 
 EAMD stands for "Enterprise Architecture Management" **Descriptors**. The “.ucp” stands for the Component Standard that is used in Web 4.0:  
 [Units - Components - Packages](../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md)  
-in short [UCP](./eamducp-repository/ucp.md)  
+in short [UCP](./eamducp-repository/UCP.md)  
 or UcpComponents
 
 The repository is a “maven" ([Apache maven](https://maven.apache.org/)) like file structure that servers component oriented development in any programing Language or technology.

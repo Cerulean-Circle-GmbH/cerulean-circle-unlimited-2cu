@@ -217,7 +217,7 @@ This is a complete navigation index for the Confluence export of Cerulean Circle
   - Coast
     - [Coast Overview](./cerulean-circle-unlimited-2cu/product/development/coast.md)
     - [EAMDUCP Repository](./cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository.md)
-    - [UCP](./cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/ucp.md)
+    - [UCP](./cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/UCP.md)
     - [Web 4.0](./cerulean-circle-unlimited-2cu/product/development/coast/web-40.md)
   - Learning Documentation and Videos
     - [Learning Documentation and Videos](./cerulean-circle-unlimited-2cu/product/development/learning-documentation-and-videos.md)

@@ -1,4 +1,4 @@
-[📁 EAMD.ucp Repository GitHub](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/ucp.entry.md)
+[📁 EAMD.ucp Repository GitHub](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/UCP.md)
 
 # UCP
 
