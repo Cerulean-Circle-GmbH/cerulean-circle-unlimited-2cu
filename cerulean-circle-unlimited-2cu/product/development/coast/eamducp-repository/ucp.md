@@ -1,4 +1,4 @@
-[📁 EAMD.ucp Repository](../eamducp-repository.md) | [🌐 Page Structure](/Cerulean-Circle-GmbH/cerulean-circle-unlimited-2cu/blob/main/2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md)
+[📁 EAMD.ucp Repository](../eamducp-repository.md) | [🌐 Page Structure](/cerulean-circle-unlimited-2cu/blob/main/2cu.atlassian.net/wiki/spaces/CCU/pages/288981051/UCP.md)
 
 # UCP
 
