@@ -12,7 +12,7 @@
 # Stable COMMITTED TO DELIVER
 
 - Scope of Work
-  - [2cu IDEA independent Use Cases](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1851916351/2cu_IDEA_independent_Use_Cases.md)
+  - [2cu IDEA independent Use Cases](../1851916351/2cu_IDEA_independent_Use_Cases.md)
     - Original read only Word [2cu IDEA independent Use Cases](https://1drv.ms/w/s!AtrdisPqy66rjSUWNsuAbqTSVL6n)
   - Excel Analytics of the Use Cases[https://docs.google.com/spreadsheets/d/1T2cSe\_vexKPZS-GS0XnuwsnB5Ejl44jU/edit?usp=sharing&ouid=116092235506984381367&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1T2cSe_vexKPZS-GS0XnuwsnB5Ejl44jU/edit?usp=sharing&ouid=116092235506984381367&rtpof=true&sd=true) Editable
   - [PPT Architektur](https://1drv.ms/p/s!AtrdisPqy66rjS8Dvg9IPU0DZn9d)
@@ -33,7 +33,7 @@ Architecture design
 
 [https://miro.com/app/board/uXjVPwfzfQc=/?share\_link\_id=446320753070](https://miro.com/app/board/uXjVPwfzfQc=/?share_link_id=446320753070)
 
-[Architecture Decisions](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1895759935/Architecture_Decisions.md)
+[Architecture Decisions](../1895759935/Architecture_Decisions.md)
 
 ## Example 2cu Project Specifications
 
@@ -48,4 +48,4 @@ Architecture design
 
 # CorIM für NEOM
 
-[NEOM PoC CorIM](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1899692050/NEOM_PoC_CorIM.md)
+[NEOM PoC CorIM](../1899692050/NEOM_PoC_CorIM.md)

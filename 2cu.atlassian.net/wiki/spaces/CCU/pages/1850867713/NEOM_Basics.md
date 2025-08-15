@@ -1,8 +1,8 @@
 # NEOM Basics
 
-- [NEOM Kickoff Agenda](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1852243973/NEOM_Kickoff_Agenda.md)
-- [NEOM Kickoff-Planning](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM_Kickoff-Planning.md)
-- [NEOM Glossary](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1859190851/NEOM_Glossary.md)
+- [NEOM Kickoff Agenda](../1852243973/NEOM_Kickoff_Agenda.md)
+- [NEOM Kickoff-Planning](../1853194241/NEOM_Kickoff-Planning.md)
+- [NEOM Glossary](../1859190851/NEOM_Glossary.md)
 
 * * *
 
@@ -38,19 +38,19 @@
 
 ## Access
 
-[Click here for user's access overview](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850671105/NEOM_PoC.md#Access)
+[Click here for user's access overview](../1850671105/NEOM_PoC.md#Access)
 
 1. Atlassian (you are here already)
 2. 1blu server (ssh keys)
 3. WhatsApp [https://chat.whatsapp.com/GPwVBuQ9R1x3zZFtikMpHg](https://chat.whatsapp.com/GPwVBuQ9R1x3zZFtikMpHg)
 4. [Slack](https://join.slack.com/t/cerulean-circle/shared_invite/zt-1n53dxfwm-SGVrNwGuerMQiTAoJkI8sw)
-5. [Google Calendar](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1853194241/NEOM_Kickoff-Planning.md#Team-Calendar-details)
-6. [Videos](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850867713/NEOM_Basics.md)
+5. [Google Calendar](../1853194241/NEOM_Kickoff-Planning.md#Team-Calendar-details)
+6. [Videos](../1850867713/NEOM_Basics.md)
 
 ## Core Documents
 
 - Scope of Work
-  - [2cu IDEA independent Use Cases](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1851916351/2cu_IDEA_independent_Use_Cases.md)
+  - [2cu IDEA independent Use Cases](../1851916351/2cu_IDEA_independent_Use_Cases.md)
     - Original read only Word [2cu IDEA independent Use Cases](https://1drv.ms/w/s!AtrdisPqy66rjSUWNsuAbqTSVL6n)
   - Excel Analytics of the Use Cases  
 Original Excel [Dependency Matrix](https://1drv.ms/x/s!AtrdisPqy66rjTEV4y3of1FISJFw)
@@ -99,7 +99,7 @@ Original Excel [Dependency Matrix](https://1drv.ms/x/s!AtrdisPqy66rjTEV4y3of1FIS
 
 ### Planning Stream
 
-Philipp, [Ingo](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850671105/NEOM_PoC.md#Ingo-Düppe), [Marcus](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850671105/NEOM_PoC.md#Marcus-Nörder-Tuitje), Felix, Matthias, [Dierk](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850671105/NEOM_PoC.md#Dierk Wiedemann), [Marcel](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850671105/NEOM_PoC.md#Marcel-Donges)
+Philipp, [Ingo](../1850671105/NEOM_PoC.md#Ingo-Düppe), [Marcus](../1850671105/NEOM_PoC.md#Marcus-Nörder-Tuitje), Felix, Matthias, [Dierk](../1850671105/NEOM_PoC.md#Dierk Wiedemann), [Marcel](../1850671105/NEOM_PoC.md#Marcel-Donges)
 
 ### Development Stream
 
@@ -113,7 +113,7 @@ Anthony, David, (Olivier, Jeff)
 
 #### DAL Stream
 
-[Herman](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850671105/NEOM_PoC.md#Herman-Otto)
+[Herman](../1850671105/NEOM_PoC.md#Herman-Otto)
 
 #### nn Stream
 
@@ -125,11 +125,11 @@ Matthias, Dierk, Marcel
 
 ## Definition of Done
 
-- [Definition of DONE](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/119111681/Definition_of_DONE.md) This is the agreed DoD
+- [Definition of DONE](../119111681/Definition_of_DONE.md) This is the agreed DoD
 
 ## Artefacts Agreements
 
-Product Backlog: [Marcel](../../../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1850671105/NEOM_PoC.md#Marcel-Donges) and Planning Stream
+Product Backlog: [Marcel](../1850671105/NEOM_PoC.md#Marcel-Donges) and Planning Stream
 
 Sprint Backlog: Dev Teams
 

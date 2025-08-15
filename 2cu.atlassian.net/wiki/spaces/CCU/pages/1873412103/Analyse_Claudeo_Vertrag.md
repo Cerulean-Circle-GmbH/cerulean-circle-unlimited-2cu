@@ -39,7 +39,7 @@ idea - cavrn.us
 
 claudeo - cc
 
-[Analyse Claudeo Vertrag](../../../2cu.atlassian.net/wiki/spaces/CCU/pages/1873412103/Analyse_Claudeo_Vertrag.md)
+[Analyse Claudeo Vertrag](../1873412103/Analyse_Claudeo_Vertrag.md)
 
 X:\\CeruleanCircle GmbH\\Clients\\cloudeo\\Cloudeo Contracts\\CloudeoContractwork\\Cloudeo\_CCG\_Koop\_2021.docx
 
