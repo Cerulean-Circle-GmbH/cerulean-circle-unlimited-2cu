@@ -3,3 +3,42 @@ Date: Fri Aug 15 09:52:01 PM UTC 2025
 Testing with governance domain files
 
 [1;33mCreating git checkpoint...[0m
+
+[1;33mStarting migration of 10 files...[0m
+
+[0;34mMigrating: cerulean-circle-unlimited-2cu/governance/investors.md[0m
+  Page ID: 300000005
+[0;34m🔄 Migrating to dual-context structure...[0m
+  Topic: investors
+  Hierarchical: cerulean-circle-unlimited-2cu/governance/investors.md
+  Page Structure: 2cu.atlassian.net/wiki/spaces/CCU/pages/300000005/
+
+[1;33mStep 1: Creating page structure directory...[0m
+
+[1;33mStep 2: Reading existing content...[0m
+[1;33m! File needs navigation header[0m
+
+[1;33mStep 4: Creating navigation headers...[0m
+
+[1;33mStep 6: Updating hierarchical file...[0m
+
+[1;33mStep 7: Creating page structure file...[0m
+
+[1;33mStep 8: Creating symlink...[0m
+
+[1;33mStep 9: Creating optional page symlink...[0m
+
+[1;33mStep 10: Validating migration...[0m
+[0;32m✓ investors.md exists[0m
+[0;32m✓ investors.md exists[0m
+[0;32m✓ investors.entry.md exists[0m
+[0;32m✓ Symlink investors.entry.md is valid[0m
+
+[0;34m═══════════════════════════════════════[0m
+[0;32m✅ Migration completed successfully![0m
+
+[1;33mNext steps:[0m
+1. Update parent topic to reference this page
+2. Update repository index.md if needed
+3. Test navigation links in GitHub
+  [0;32m✓ Success[0m
