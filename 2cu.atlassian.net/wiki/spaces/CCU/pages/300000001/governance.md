@@ -1,4 +1,4 @@
-[📁 Cerulean Circle Unlimited 2cu](../cerulean-circle-unlimited-2cu.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000001/governance.md) | [🌐 Page Structure local SymLink](./governance.page.md)
+[📁 Cerulean Circle Unlimited 2cu GitHub](/cerulean-circle-unlimited-2cu.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/governance.md) | [🌐 Index Structure local SymLink](./governance.entry.md)
 
 # Governance
 

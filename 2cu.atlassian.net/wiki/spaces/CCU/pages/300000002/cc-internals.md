@@ -1,4 +1,4 @@
-[📁 Governance](../governance.md) | [🌐 Page Structure GitHub](/2cu.atlassian.net/wiki/spaces/CCU/pages/300000002/cc-internals.md) | [🌐 Page Structure local SymLink](./cc-internals.page.md)
+[📁 Governance GitHub](/cerulean-circle-unlimited-2cu/governance.md) | [🌐 Index Structure GitHub](/cerulean-circle-unlimited-2cu/governance/cc-internals.md) | [🌐 Index Structure local SymLink](./cc-internals.entry.md)
 
 # CC internals
 
