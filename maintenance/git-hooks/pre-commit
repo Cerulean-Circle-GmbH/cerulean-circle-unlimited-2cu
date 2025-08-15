@@ -6,7 +6,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-MAINTENANCE_DIR="$(cd "$SCRIPT_DIR/../src/sh" && pwd)"
+MAINTENANCE_DIR="$(cd "$SCRIPT_DIR/../../maintenance/src/sh" && pwd)"
 
 echo "🔍 Pre-commit validation: Dual-context architecture integrity"
 
