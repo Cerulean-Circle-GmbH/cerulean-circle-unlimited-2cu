@@ -1,4 +1,4 @@
-[📁 EAMD.ucp Repository](../eamducp-repository.md) | [🌐 Page Structure](./ucp.md)
+[📁 EAMD.ucp Repository](../eamducp-repository.md) | [🌐 Index Structure](/cerulean-circle-unlimited-2cu/product/development/coast/eamducp-repository/ucp.md)
 
 # UCP
 
