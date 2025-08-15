@@ -4,6 +4,20 @@
 
 This maintenance system provides automated tools and git integrations to maintain the dual-context architecture for Atlassian link resolution in the Cerulean Circle Unlimited 2CU export repository.
 
+## 📚 User Documentation
+
+### Getting Started
+- **[🚀 Quick Start Guide](./docs/dual-context-quick-start.md)** - Learn the basics in 5 minutes
+- **[📖 Complete Navigation Guide](./docs/dual-context-navigation-guide.md)** - Comprehensive system documentation
+- **[❓ FAQ](./docs/dual-context-faq.md)** - Frequently asked questions
+- **[🔧 Maintenance Guide](./docs/dual-context-maintenance.md)** - Administrator documentation
+
+### Key Benefits
+- **Two Navigation Modes**: Browse by folders or page IDs
+- **Automatic Synchronization**: New files get navigation headers automatically
+- **Stable References**: Page IDs persist even when files move
+- **Seamless Switching**: Click to switch between contexts instantly
+
 ## 🏗️ **Architecture Overview**
 
 The dual-context architecture enables seamless navigation from two different contexts:
