@@ -144,21 +144,47 @@ find . -name "*migration.backup*" # Should be empty
 
 ## **🎯 Recovery Protocol**
 
-### **When User Says "Recover from README"**
-1. Navigate to project root directory
-2. Check git status and current branch
-3. Review `PDCA/recover.md` for latest context
-4. Continue from last documented checkpoint
-5. Use simple commands to avoid terminal hanging
+### **⚠️ CRITICAL: THIS BRANCH IS OUTDATED - USE MAIN**
+```bash
+# MANDATORY - Switch to main branch immediately:
+cd /workspace
+git checkout main
+git pull origin main
+```
 
-### **Continuation Strategy**
-- Complete any pending commits using simple commands
-- Push changes to maintain git safety
-- Continue PDCA methodology from last cycle
-- Document any new findings or user corrections
-- Maintain dual-context architecture integrity
+**WARNING**: You are on feat/linksMigrated which contains outdated experimental code. The main branch has the complete production system with 251 files migrated.
+
+### **When User Says "Recover from README"**
+1. **IMMEDIATELY switch to main branch** (non-negotiable!)
+2. **DO NOT** continue on feat/linksMigrated
+3. Read main branch recovery documentation
+4. Use maintenance v2.0 tools on main
+5. All 251 files are migrated on main
+
+### **This Branch Status**
+- ❌ Only 29 test files (incomplete)
+- ❌ Outdated maintenance v1.0
+- ❌ No auto-sync features
+- ❌ Experimental code only
+
+### **Main Branch Has**
+- ✅ 251 files fully migrated
+- ✅ Maintenance v2.0 tools
+- ✅ Auto-synchronization
+- ✅ Complete documentation
+- ✅ Self-healing features
+
+### **Fix Wrong Branch Immediately**
+```bash
+git stash              # Save any changes
+git checkout main      # Switch to production
+git pull origin main   # Get latest
+cat PDCA/recover.md    # Read correct docs
+```
 
 ---
+
+**Agent Directive**: NEVER work on feat/linksMigrated. Always switch to main branch for recovery and all operations.
 
 **Agent Signature**: OntologyAgent specialized in systematic dual-context architecture implementation through PDCA methodology with git-based safety protocols.
 
