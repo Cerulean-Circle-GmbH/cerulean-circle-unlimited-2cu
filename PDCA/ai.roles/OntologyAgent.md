@@ -144,19 +144,39 @@ find . -name "*migration.backup*" # Should be empty
 
 ## **🎯 Recovery Protocol**
 
+### **⚠️ CRITICAL: ALWAYS RECOVER ON MAIN BRANCH**
+```bash
+# MANDATORY first commands after recovery:
+cd /workspace
+git checkout main
+git pull origin main
+```
+
+**Why Main Branch**: The main branch contains the complete, production-ready system with all 251 files migrated. Other branches may have outdated or experimental code.
+
 ### **When User Says "Recover from README"**
-1. Navigate to project root directory
-2. Check git status and current branch
-3. Review `PDCA/recover.md` for latest context
-4. Continue from last documented checkpoint
-5. Use simple commands to avoid terminal hanging
+1. **IMMEDIATELY switch to main branch** (critical!)
+2. Navigate to project root directory
+3. Check git status and confirm on main
+4. Review `PDCA/recover.md` for latest context
+5. Continue from production state on main
+6. Use simple commands to avoid terminal hanging
 
 ### **Continuation Strategy**
-- Complete any pending commits using simple commands
-- Push changes to maintain git safety
-- Continue PDCA methodology from last cycle
-- Document any new findings or user corrections
+- Verify you're on main branch before any operations
+- Check migration is complete (251 files)
+- Use maintenance v2.0 tools only
+- Document any new findings in PDCA format
 - Maintain dual-context architecture integrity
+
+### **If Started on Wrong Branch**
+```bash
+# Fix immediately:
+git stash              # Save any local changes
+git checkout main      # Switch to main
+git pull origin main   # Get latest
+# Now continue properly
+```
 
 ---
 
