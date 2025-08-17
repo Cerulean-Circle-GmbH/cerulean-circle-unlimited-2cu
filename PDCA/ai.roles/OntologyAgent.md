@@ -144,6 +144,18 @@ find . -name "*migration.backup*" # Should be empty
 
 ## **🎯 Recovery Protocol**
 
+### **🚨 HIGHEST PRIORITY: Recover Save From README**
+
+**When user says "recover save from readme":**
+```bash
+# MINIMAL RECOVERY - 3 COMMANDS ONLY
+git checkout main && git pull
+cat PDCA/recover.md
+# Follow current state instructions
+```
+
+**Status**: This is the #1 recovery method. For release agents, this is the ONLY allowed recovery method.
+
 ### **⚠️ CRITICAL: ALWAYS RECOVER ON MAIN BRANCH**
 ```bash
 # MANDATORY first commands after recovery:
@@ -154,7 +166,12 @@ git pull origin main
 
 **Why Main Branch**: The main branch contains the complete, production-ready system with all 251 files migrated. Other branches may have outdated or experimental code.
 
-### **When User Says "Recover from README"**
+### **Recovery Priority Order**
+1. **🥇 "Recover Save From README"** - Minimal 3-command process (HIGHEST)
+2. **🥈 Standard Recovery** - Full recovery from README
+3. **🥉 Manual Recovery** - Detailed recovery procedures
+
+### **When User Says "Recover from README"** (Standard)
 1. **IMMEDIATELY switch to main branch** (critical!)
 2. Navigate to project root directory
 3. Check git status and confirm on main

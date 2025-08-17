@@ -2,9 +2,21 @@
 
 # 🔄 **RECOVERY DOCUMENTATION**
 
-**Last Update**: 2025-01-28 UTC 01:00  
+**Last Update**: 2025-01-28 UTC 01:20  
 **Recovery Branch**: **ALWAYS USE MAIN BRANCH** ⚠️  
 **Status**: Full migration completed - 251 files with dual-context navigation
+
+## **🚨 PRIMARY RECOVERY: "Recover Save From README"**
+
+### **MINIMAL 3-COMMAND RECOVERY**
+```bash
+# When user says "recover save from readme":
+git checkout main && git pull
+cat PDCA/recover.md
+# Continue from current state below
+```
+
+**Priority**: This is the HIGHEST PRIORITY recovery method. For release agents, this is the ONLY allowed method.
 
 ## **⚠️ CRITICAL RECOVERY INSTRUCTION**
 
